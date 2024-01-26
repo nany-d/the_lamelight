@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 window/size/viewport_width=2000
 window/size/viewport_height=1125
 
+[dotnet]
+
+project/assembly_name="The_Lamelight"
+
 [filesystem]
 
 import/blender/enabled=false

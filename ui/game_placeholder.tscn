@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://00jap8871a7q"]
+
+[ext_resource type="Texture2D" uid="uid://dknx2tljb0m1h" path="res://ui/placeholderimages/temp.jpg" id="1_17wk2"]
+
+[node name="GamePlaceholder" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 2000.0
+offset_bottom = 1125.0
+color = Color(0, 0, 0, 1)
+
+[node name="Temp" type="Sprite2D" parent="."]
+position = Vector2(1206, 564)
+texture = ExtResource("1_17wk2")
