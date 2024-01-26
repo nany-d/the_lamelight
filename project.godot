@@ -11,5 +11,15 @@ config_version=5
 [application]
 
 config/name="The_Lamelight"
+run/main_scene="res://game/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=2000
+window/size/viewport_height=1125
+
+[filesystem]
+
+import/blender/enabled=false

@@ -24,6 +24,24 @@
         "choice_3": "yoghurt"
     },
     {
+        "joke": "I am a broke mathematician, I am friends with all <word> but my credit score.",
+        "choice_1": "numbers",
+        "choice_2": "equations",
+        "choice_3": "circles"
+    },
+    {
+        "joke": "According to the bank, If my prospects were a month they would be <word>.",
+        "choice_1": "mortuary",
+        "choice_2": "shortuary",
+        "choice_3": "debtember"
+    },
+    {
+        "joke": "Breaking News - Cage fight: Musk tears Zuckerberg apart, all that's left of him is <word>",
+        "choice_1": "Threads",
+        "choice_2": "Pokes",
+        "choice_3": "Likes"
+    },
+    {
         "joke": "I think I found my place in the universe: I’m just a <word> between my employer, and my landlord",
         "choice_1": "wire",
         "choice_2": "stupid",
@@ -58,5 +76,11 @@
         "choice_1": "working",
         "choice_2": "dancing",
         "choice_3": "cooking"
+    },
+    {
+        "joke": "What did the janitor say when he jumped out of the closet? Supplies!",
+        "choice_1": "Supplies",
+        "choice_2": "Buckets",
+        "choice_3": "Mops away"
     }
 ]
