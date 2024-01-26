@@ -40,5 +40,23 @@
         "choice_1": "put down",
         "choice_2": "fry eggs",
         "choice_3": "ride unicorns"
+    },
+    {
+        "joke": "I told my suitcases there will be no vacation this year. Now I'm dealing with emotional <word>.",
+        "choice_1": "baggage",
+        "choice_2": "penguins",
+        "choice_3": "lasagna"
+    },
+    {
+        "joke": "I would tell you a roof joke, but it's probably over your <word>.",
+        "choice_1": "head",
+        "choice_2": "banana",
+        "choice_3": "aquarium"
+    },
+    {
+        "joke": "I broke up with my gym. We just weren't <word> out.",
+        "choice_1": "working",
+        "choice_2": "dancing",
+        "choice_3": "cooking"
     }
 ]
