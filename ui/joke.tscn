@@ -1,9 +1,8 @@
 [gd_scene load_steps=4 format=3 uid="uid://54wnwx4g0420"]
 
 [ext_resource type="Script" path="res://scripts/joke.gd" id="1_ysgxy"]
-[ext_resource type="FontFile" uid="uid://cpcdkdcuwconc" path="res://ui/fonts/MochiyPopOne-Regular.ttf" id="2_13ok7"]
-
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uotc2"]
+[ext_resource type="Texture2D" uid="uid://dn0vhwmkitqif" path="res://art/tempui/jokeboxtemp.png" id="2_cocei"]
+[ext_resource type="FontFile" uid="uid://n1q51ljuyy06" path="res://ui/fonts/HiMelody-Regular.ttf" id="3_2nt7q"]
 
 [node name="Joke" type="Control"]
 layout_mode = 3
@@ -20,7 +19,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("PlaceholderTexture2D_uotc2")
+texture = ExtResource("2_cocei")
 
 [node name="JokeText" type="RichTextLabel" parent="."]
 layout_mode = 1
@@ -33,8 +32,10 @@ offset_right = -50.0
 offset_bottom = -20.0
 grow_horizontal = 2
 grow_vertical = 2
-theme_override_fonts/normal_font = ExtResource("2_13ok7")
-theme_override_font_sizes/normal_font_size = 40
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_2nt7q")
+theme_override_font_sizes/normal_font_size = 70
+scroll_active = false
 
 [node name="CharDelay" type="Timer" parent="."]
 one_shot = true
