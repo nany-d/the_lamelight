@@ -3,7 +3,7 @@ class_name Punchline
 
 @onready var punch_line_text = $PunchLineText
 @onready var punch_line_button = $PunchLineButton
-
+@onready var visible_on_screen_notifier_2d = $VisibleOnScreenNotifier2D
 
 # Should fall to bottom of screen
 var difficulty = GlobalSettings.difficulty
