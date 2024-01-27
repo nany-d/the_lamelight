@@ -1,17 +1,33 @@
-[gd_scene load_steps=2 format=3 uid="uid://er433osg8ds"]
+[gd_scene load_steps=7 format=3 uid="uid://er433osg8ds"]
 
 [ext_resource type="Script" path="res://scripts/censored_line.gd" id="1_im8pf"]
+[ext_resource type="FontFile" uid="uid://n1q51ljuyy06" path="res://ui/fonts/HiMelody-Regular.ttf" id="2_u37df"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6cbop"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4mnkv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wxca5"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_cwlm1"]
 
 [node name="CensoredLine" type="Node2D"]
 script = ExtResource("1_im8pf")
 
 [node name="CensoredLabel" type="RichTextLabel" parent="."]
-offset_right = 143.0
-offset_bottom = 55.0
+offset_right = 264.0
+offset_bottom = 80.0
+theme_override_colors/default_color = Color(1, 0.858824, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_u37df")
+theme_override_font_sizes/normal_font_size = 72
 text = "[Censored]"
 
 [node name="CensoredButton" type="Button" parent="."]
-offset_right = 143.0
-offset_bottom = 54.0
+offset_right = 264.0
+offset_bottom = 80.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_6cbop")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_4mnkv")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_wxca5")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_cwlm1")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]

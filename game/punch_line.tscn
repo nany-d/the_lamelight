@@ -15,7 +15,7 @@
 script = ExtResource("1_2xoh0")
 
 [node name="PunchLineButton" type="Button" parent="."]
-offset_right = 256.0
+offset_right = 320.0
 offset_bottom = 80.0
 theme_override_styles/normal = SubResource("StyleBoxEmpty_aoutd")
 theme_override_styles/hover = SubResource("StyleBoxEmpty_81yrx")
@@ -23,7 +23,7 @@ theme_override_styles/pressed = SubResource("StyleBoxEmpty_hcpsi")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_xy3xu")
 
 [node name="PunchLineText" type="RichTextLabel" parent="."]
-offset_right = 256.0
+offset_right = 320.0
 offset_bottom = 80.0
 mouse_filter = 2
 theme_override_colors/default_color = Color(1, 0.862745, 0, 1)

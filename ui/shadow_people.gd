@@ -12,9 +12,6 @@ func _showRandomShadow():
 		hiddenArray[rnum].shadow_show()
 		shownArray.append(hiddenArray[rnum])
 		hiddenArray.remove_at(rnum)
-		print(str(rnum) + " was shown")
-	else:
-		print("no shown shadows!")
 
 func _hideRandomShadow():
 	if shownArray.size() > 0:
@@ -22,6 +19,3 @@ func _hideRandomShadow():
 		shownArray[rnum].shadow_hide()
 		hiddenArray.append(shownArray[rnum])
 		shownArray.remove_at(rnum)
-		print(str(rnum) + " was hidden")
-	else:
-		print("no hidden shadows!")
