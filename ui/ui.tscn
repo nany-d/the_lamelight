@@ -1,8 +1,62 @@
-[gd_scene load_steps=4 format=3 uid="uid://b1gsy3w58nksa"]
+[gd_scene load_steps=8 format=3 uid="uid://b1gsy3w58nksa"]
 
 [ext_resource type="PackedScene" uid="uid://54wnwx4g0420" path="res://ui/joke.tscn" id="1_4hwai"]
 [ext_resource type="Script" path="res://scripts/ui.gd" id="1_mh7at"]
 [ext_resource type="Script" path="res://scripts/falling_punchlines.gd" id="3_lnu6d"]
+
+[sub_resource type="Animation" id="Animation_r2nv0"]
+resource_name = "jokebox_show"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Joke:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.3, 0.5),
+"transitions": PackedFloat32Array(0.5, 2, 1),
+"update": 0,
+"values": [Vector2(100, 1200), Vector2(100, 850), Vector2(100, 880)]
+}
+
+[sub_resource type="Animation" id="Animation_8aw4x"]
+resource_name = "jokebox_hide"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Joke:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.5),
+"transitions": PackedFloat32Array(0.5, 2, 1),
+"update": 0,
+"values": [Vector2(100, 880), Vector2(100, 850), Vector2(100, 1200)]
+}
+
+[sub_resource type="Animation" id="Animation_yh5df"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Joke:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(100, 880)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_l1huq"]
+_data = {
+"RESET": SubResource("Animation_yh5df"),
+"jokebox_hide": SubResource("Animation_8aw4x"),
+"jokebox_show": SubResource("Animation_r2nv0")
+}
 
 [node name="UI" type="Control"]
 layout_mode = 3
@@ -17,9 +71,9 @@ script = ExtResource("3_lnu6d")
 [node name="Joke" parent="." instance=ExtResource("1_4hwai")]
 layout_mode = 0
 offset_left = 100.0
-offset_top = 900.0
+offset_top = 880.0
 offset_right = 1900.0
-offset_bottom = 1080.0
+offset_bottom = 1060.0
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
@@ -34,6 +88,10 @@ text = "THE LAMELIGHT"
 [node name="JokeDelay" type="Timer" parent="."]
 wait_time = 2.3
 one_shot = true
+[node name="JokeBoxAnimPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_l1huq")
+}
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="timeout" from="TitleDelay" to="." method="_on_title_delay_timeout"]
