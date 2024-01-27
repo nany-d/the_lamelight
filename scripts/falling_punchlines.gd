@@ -5,7 +5,6 @@ extends Node2D
 # if incorrect remove all, animations etc. happen then next joke new punchlines, -comedy
 
 const PunchLine = preload("res://game/punch_line.tscn")
-
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
 
