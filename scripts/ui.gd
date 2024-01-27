@@ -15,7 +15,7 @@ func _process(_delta):
 
 
 func _on_button_pressed():
-	audio_engine.play_mumble_joke()
+	audio_engine.play_random_mumble_joke()
 	falling_punchlines.spawn_punchlines()
 	joke.visible = true
 	joke.next_phrase()

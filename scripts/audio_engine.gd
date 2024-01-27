@@ -58,11 +58,11 @@ func play_stage_intro():
 func play_crowd_chatting():
 	self.stream = load("res://audio/crowd_chatting.mp3")
 
-func play_mumble_joke():
+func play_random_mumble_joke():
 	self.stream = mumble_jokes_streams[randi() % mumble_jokes_streams.size()]
 	play()
 
-func play_mumble_delivery():
+func play_random_mumble_delivery():
 	self.stream = mumble_delivery_streams[randi() % mumble_delivery_streams.size()]
 	play()
 	
