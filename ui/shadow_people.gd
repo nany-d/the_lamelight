@@ -25,13 +25,3 @@ func _hideRandomShadow():
 		print(str(rnum) + " was hidden")
 	else:
 		print("no hidden shadows!")
-
-
-func _on_hide_button_pressed():
-	_hideRandomShadow()
-	pass # Replace with function body.
-
-
-func _on_show_button_pressed():
-	_showRandomShadow()
-	pass # Replace with function body.

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dy6tg6m2pnwmf"]
+[gd_scene load_steps=8 format=3 uid="uid://da5pji3f2rso4"]
 
 [ext_resource type="Texture2D" uid="uid://bd03a0eu5bavk" path="res://art/tempui/curtainstemp.png" id="1_3kvhv"]
 [ext_resource type="Texture2D" uid="uid://bu5kqr7na2eu3" path="res://art/tempui/curtainstemp2.png" id="1_43h4m"]
