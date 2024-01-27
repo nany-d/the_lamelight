@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://dhd1csyxhp7nr"]
+
+[ext_resource type="Script" path="res://scripts/punch_line.gd" id="1_2xoh0"]
+
+[node name="PunchLine" type="Node2D"]
+script = ExtResource("1_2xoh0")
+
+[node name="PunchLineText" type="RichTextLabel" parent="."]
+offset_right = 226.0
+offset_bottom = 132.0
+
+[node name="PunchLineButton" type="Button" parent="."]
+offset_right = 227.0
+offset_bottom = 132.0
