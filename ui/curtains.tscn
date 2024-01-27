@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy6tg6m2pnwmf"]
+
+[ext_resource type="Texture2D" uid="uid://bd03a0eu5bavk" path="res://art/tempui/curtainstemp.png" id="1_3kvhv"]
+
+[node name="Curtains" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_3kvhv")

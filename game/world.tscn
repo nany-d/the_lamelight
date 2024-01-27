@@ -1,10 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://c1n0l5bjxykk6"]
+[gd_scene load_steps=4 format=3 uid="uid://c1n0l5bjxykk6"]
 
 [ext_resource type="PackedScene" uid="uid://00jap8871a7q" path="res://ui/game_placeholder.tscn" id="1_ehtji"]
 [ext_resource type="PackedScene" uid="uid://b1gsy3w58nksa" path="res://ui/ui.tscn" id="1_jrgk0"]
+[ext_resource type="PackedScene" uid="uid://dy6tg6m2pnwmf" path="res://ui/curtains.tscn" id="3_15lye"]
 
 [node name="World" type="Node2D"]
 
 [node name="GamePlaceholder" parent="." instance=ExtResource("1_ehtji")]
 
 [node name="UI" parent="." instance=ExtResource("1_jrgk0")]
+
+[node name="Curtains" parent="." instance=ExtResource("3_15lye")]
+offset_top = -1055.0
+offset_bottom = -1015.0
