@@ -1,6 +1,8 @@
 extends Node2D
 
 @onready var animplayer = $ShadowAnimPlayer
+@onready var audio_manager = $"/root/AudioEngine"
+
 var original_position = Vector2()
 var is_talking = false
 var talk_time_elapsed = 0.0

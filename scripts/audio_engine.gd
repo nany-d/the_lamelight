@@ -59,6 +59,11 @@ func play_stage_intro():
 	
 func play_stage_win():
 	self.stream = load("res://audio/stage_win.mp3")
+	play()
+	
+func play_stage_lose():
+	self.stream = load("res://audio/stage_lose.mp3")
+	play()
 	
 func play_crowd_chatting():
 	self.stream = load("res://audio/crowd_chatting.mp3")
