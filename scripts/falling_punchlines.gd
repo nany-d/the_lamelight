@@ -10,7 +10,6 @@ const PunchLine = preload("res://game/punch_line.tscn")
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
-var loss_from_off_screen = 1
 
 func spawn_punchlines():
 	var correct_punch_chosen = false
@@ -26,7 +25,7 @@ func spawn_punchlines():
 			p.set_punchline("Incorrect")
 			p.set_correct(false)
 		p.punch_line_button.connect("pressed", punch_line_check.bind(p))
-		p.visible_on_screen_notifier_2d.connect("screen_exited", fail_punch_line.bind(loss_from_off_screen))
+		p.visible_on_screen_notifier_2d.connect("screen_exited", fail_punch_line)
 			
 
 func punch_line_check(punch_line):
@@ -39,7 +38,7 @@ func punch_line_check(punch_line):
 	remove_punchlines()
 
 # can vary how much a player loses for not selecting an option
-func fail_punch_line(loss : int):
+func fail_punch_line():
 	# each fail punch line will -1 from comedy so if all 3 fall and are not clicked -3
 	comedy -= 1
 	print(comedy)
