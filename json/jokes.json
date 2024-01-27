@@ -78,7 +78,7 @@
 		"choice_3": "cooking"
 	},
 	{
-		"joke": "What did the janitor say when he jumped out of the closet? Supplies!",
+		"joke": "What did the janitor say when he jumped out of the closet? <word>!",
 		"choice_1": "Supplies",
 		"choice_2": "Buckets",
 		"choice_3": "Mops away"
