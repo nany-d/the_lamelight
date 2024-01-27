@@ -1,34 +1,40 @@
 [gd_scene load_steps=4 format=3 uid="uid://54wnwx4g0420"]
 
 [ext_resource type="Script" path="res://scripts/joke.gd" id="1_ysgxy"]
-[ext_resource type="FontFile" uid="uid://b5o8wevdfhext" path="res://ui/fonts/Geom Graphic W03 Regular.ttf" id="2_t2wkk"]
+[ext_resource type="FontFile" uid="uid://cpcdkdcuwconc" path="res://ui/fonts/MochiyPopOne-Regular.ttf" id="2_13ok7"]
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uotc2"]
 
 [node name="Joke" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1800.0
+offset_bottom = 180.0
 script = ExtResource("1_ysgxy")
 dialog_path = "res://json/jokes.json"
 
 [node name="JokeBackground" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = 50.0
-offset_top = 997.0
-offset_right = 1952.0
-offset_bottom = 1084.0
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 texture = SubResource("PlaceholderTexture2D_uotc2")
 
 [node name="JokeText" type="RichTextLabel" parent="."]
-layout_mode = 0
-offset_left = 53.0
-offset_top = 1005.0
-offset_right = 1949.0
-offset_bottom = 1076.0
-theme_override_fonts/normal_font = ExtResource("2_t2wkk")
-theme_override_font_sizes/normal_font_size = 36
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = 20.0
+offset_right = -50.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/normal_font = ExtResource("2_13ok7")
+theme_override_font_sizes/normal_font_size = 40
 
 [node name="CharDelay" type="Timer" parent="."]
 one_shot = true
