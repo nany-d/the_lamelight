@@ -80,7 +80,7 @@ func play_random_intro_clap():
 
 func play_random_clap_laugh():
 	self.stream = clap_laugh_streams[randi() % clap_laugh_streams.size()]
-	play
+	play()
 	
 func play_random_laugh():
 	self.stream = laugh_streams[randi() % laugh_streams.size()]
