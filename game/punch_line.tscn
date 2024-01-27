@@ -1,14 +1,19 @@
-[gd_scene load_steps=2 format=3 uid="uid://dhd1csyxhp7nr"]
+[gd_scene load_steps=3 format=3 uid="uid://dhd1csyxhp7nr"]
 
 [ext_resource type="Script" path="res://scripts/punch_line.gd" id="1_2xoh0"]
+[ext_resource type="FontFile" uid="uid://n1q51ljuyy06" path="res://ui/fonts/HiMelody-Regular.ttf" id="2_rsdao"]
 
 [node name="PunchLine" type="Node2D"]
 script = ExtResource("1_2xoh0")
 
-[node name="PunchLineText" type="RichTextLabel" parent="."]
-offset_right = 226.0
-offset_bottom = 132.0
-
 [node name="PunchLineButton" type="Button" parent="."]
 offset_right = 227.0
 offset_bottom = 132.0
+
+[node name="PunchLineText" type="RichTextLabel" parent="."]
+offset_right = 226.0
+offset_bottom = 132.0
+mouse_filter = 2
+theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_fonts/normal_font = ExtResource("2_rsdao")
+theme_override_font_sizes/normal_font_size = 40

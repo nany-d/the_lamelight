@@ -12,16 +12,21 @@ offset_bottom = 40.0
 script = ExtResource("1_mh7at")
 
 [node name="Joke" parent="." instance=ExtResource("1_4hwai")]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 900.0
+offset_right = 1900.0
+offset_bottom = 1080.0
 
 [node name="FallingPunchlines" type="Node2D" parent="."]
 script = ExtResource("3_lnu6d")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 61.0
-offset_top = 32.0
-offset_right = 322.0
-offset_bottom = 139.0
+offset_left = 84.0
+offset_top = 88.0
+offset_right = 345.0
+offset_bottom = 195.0
 text = "THE LAMELIGHT"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

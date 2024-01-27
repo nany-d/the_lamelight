@@ -71,9 +71,9 @@ color = Color(0, 0, 0, 1)
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
 offset_left = 408.0
-offset_top = -33.0
+offset_top = -136.0
 offset_right = 2008.0
-offset_bottom = 1167.0
+offset_bottom = 1064.0
 texture = ExtResource("1_17wk2")
 
 [node name="JokeBox" type="Control" parent="."]
