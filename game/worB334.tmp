@@ -1,0 +1,20 @@
+[gd_scene load_steps=6 format=3 uid="uid://c1n0l5bjxykk6"]
+
+[ext_resource type="PackedScene" uid="uid://00jap8871a7q" path="res://ui/game_placeholder.tscn" id="1_ehtji"]
+[ext_resource type="PackedScene" uid="uid://b1gsy3w58nksa" path="res://ui/ui.tscn" id="1_jrgk0"]
+[ext_resource type="PackedScene" uid="uid://da5pji3f2rso4" path="res://ui/curtains.tscn" id="3_15lye"]
+[ext_resource type="Script" path="res://scripts/audio_engine.gd" id="4_v4old"]
+
+[sub_resource type="AudioStreamMP3" id="AudioStreamMP3_83xjk"]
+
+[node name="World" type="Node2D"]
+
+[node name="GamePlaceholder" parent="." instance=ExtResource("1_ehtji")]
+
+[node name="UI" parent="." instance=ExtResource("1_jrgk0")]
+
+[node name="Curtains" parent="." instance=ExtResource("3_15lye")]
+
+[node name="AudioEngine" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamMP3_83xjk")
+script = ExtResource("4_v4old")
