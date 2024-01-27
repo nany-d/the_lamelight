@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://54wnwx4g0420"]
+
+[ext_resource type="Script" path="res://scripts/joke.gd" id="1_ysgxy"]
+[ext_resource type="FontFile" uid="uid://b5o8wevdfhext" path="res://ui/fonts/Geom Graphic W03 Regular.ttf" id="2_t2wkk"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uotc2"]
+
+[node name="Joke" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ysgxy")
+dialog_path = "res://json/jokes.json"
+
+[node name="JokeBackground" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 997.0
+offset_right = 1952.0
+offset_bottom = 1084.0
+texture = SubResource("PlaceholderTexture2D_uotc2")
+
+[node name="JokeText" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 53.0
+offset_top = 1005.0
+offset_right = 1949.0
+offset_bottom = 1076.0
+theme_override_fonts/normal_font = ExtResource("2_t2wkk")
+theme_override_font_sizes/normal_font_size = 36
+
+[node name="CharDelay" type="Timer" parent="."]
+one_shot = true
+
+[node name="Speak" type="AudioStreamPlayer2D" parent="."]
+
+[node name="LoadTimer" type="Timer" parent="."]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="timeout" from="LoadTimer" to="." method="_on_load_timer_timeout"]
