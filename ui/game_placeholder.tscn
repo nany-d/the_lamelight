@@ -18,21 +18,6 @@ tracks/0/keys = {
 "values": [Vector2(187, 1200), Vector2(187, 850), Vector2(187, 877)]
 }
 
-[sub_resource type="Animation" id="Animation_dstrj"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(187, 1200)]
-}
-
 [sub_resource type="Animation" id="Animation_e0gkp"]
 resource_name = "JokeBox_out"
 length = 0.6
@@ -49,6 +34,21 @@ tracks/0/keys = {
 "values": [Vector2(187, 877), Vector2(187, 850), Vector2(187, 1200)]
 }
 
+[sub_resource type="Animation" id="Animation_dstrj"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(187, 1200)]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sfx8d"]
 _data = {
 "JokeBox_in": SubResource("Animation_haxjs"),
@@ -59,10 +59,8 @@ _data = {
 [node name="GamePlaceholder" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 187.0
-offset_top = 1200.0
-offset_right = 2187.0
-offset_bottom = 2325.0
+offset_right = 2000.0
+offset_bottom = 1125.0
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 2
@@ -78,29 +76,18 @@ offset_right = 2008.0
 offset_bottom = 1167.0
 texture = ExtResource("1_17wk2")
 
-[node name="Button" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 1.0
-anchor_right = 1.0
-offset_left = -266.0
-offset_top = 39.0
-offset_right = -57.0
-offset_bottom = 130.0
-grow_horizontal = 0
-theme_override_font_sizes/font_size = 60
-text = "Button"
-
 [node name="JokeBox" type="Control" parent="."]
+visible = false
 layout_mode = 1
+anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 offset_left = -813.0
-offset_top = -248.0
+offset_top = 75.0
 offset_right = 814.0
-offset_bottom = -69.994
+offset_bottom = 253.006
 grow_horizontal = 2
 grow_vertical = 0
 pivot_offset = Vector2(813, 89)
