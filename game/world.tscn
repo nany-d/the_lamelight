@@ -11,5 +11,3 @@
 [node name="UI" parent="." instance=ExtResource("1_jrgk0")]
 
 [node name="Curtains" parent="." instance=ExtResource("3_15lye")]
-offset_top = -1055.0
-offset_bottom = -1015.0

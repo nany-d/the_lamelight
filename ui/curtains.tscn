@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dy6tg6m2pnwmf"]
+[gd_scene load_steps=3 format=3 uid="uid://dy6tg6m2pnwmf"]
 
 [ext_resource type="Texture2D" uid="uid://bd03a0eu5bavk" path="res://art/tempui/curtainstemp.png" id="1_3kvhv"]
+[ext_resource type="Texture2D" uid="uid://bu5kqr7na2eu3" path="res://art/tempui/curtainstemp2.png" id="1_43h4m"]
 
 [node name="Curtains" type="Control"]
 layout_mode = 3
@@ -8,8 +9,22 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
+[node name="TextureRect2" type="TextureRect" parent="."]
+offset_left = -1467.0
+offset_right = 71.0
+offset_bottom = 1125.0
+texture = ExtResource("1_43h4m")
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+offset_left = 1929.0
+offset_right = 3467.0
+offset_bottom = 1125.0
+texture = ExtResource("1_43h4m")
+flip_h = true
+
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
+offset_top = -1008.0
+offset_right = 2000.0
+offset_bottom = 117.0
 texture = ExtResource("1_3kvhv")

@@ -23,10 +23,10 @@ script = ExtResource("3_lnu6d")
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 48.0
-offset_top = 74.0
-offset_right = 309.0
-offset_bottom = 181.0
+offset_left = 84.0
+offset_top = 88.0
+offset_right = 345.0
+offset_bottom = 195.0
 text = "THE LAMELIGHT"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
