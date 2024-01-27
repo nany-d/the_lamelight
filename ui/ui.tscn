@@ -31,5 +31,10 @@ text = "THE LAMELIGHT"
 
 [node name="TitleDelay" type="Timer" parent="."]
 
+[node name="JokeDelay" type="Timer" parent="."]
+wait_time = 2.3
+one_shot = true
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="timeout" from="TitleDelay" to="." method="_on_title_delay_timeout"]
+[connection signal="timeout" from="JokeDelay" to="FallingPunchlines" method="_on_joke_delay_timeout"]

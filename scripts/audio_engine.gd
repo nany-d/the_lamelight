@@ -54,9 +54,11 @@ func _ready():
 
 func play_stage_intro():
 	self.stream = load("res://audio/stage_intro.mp3")
+	play()
 	
 func play_crowd_chatting():
 	self.stream = load("res://audio/crowd_chatting.mp3")
+	play()
 
 func play_random_mumble_joke():
 	self.stream = mumble_jokes_streams[randi() % mumble_jokes_streams.size()]
@@ -80,7 +82,7 @@ func play_random_intro_clap():
 
 func play_random_clap_laugh():
 	self.stream = clap_laugh_streams[randi() % clap_laugh_streams.size()]
-	play
+	play()
 	
 func play_random_laugh():
 	self.stream = laugh_streams[randi() % laugh_streams.size()]
