@@ -18,9 +18,7 @@ func _process(_delta):
 
 
 func _on_button_pressed():
-	audio_engine.play_random_mumble_joke()
-	falling_punchlines.spawn_punchlines()
-	
+		
 	# choose a joke, pass the correct punchline and maybe the incorrect as well to falling_punchlines.spawn_punchlines
 	joke.visible = true
 	joke.next_phrase()

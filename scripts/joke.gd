@@ -1,5 +1,7 @@
 extends Control
 
+
+
 @export var dialog_path = ""
 @export var text_speed: float = 0.005
 
@@ -8,6 +10,7 @@ extends Control
 @onready var audio = $Speak
 @onready var load_delay = $LoadTimer
 @onready var falling_punchlines = $"../FallingPunchlines"
+@onready var audio_manager = $"/root/AudioEngine"
 
 var dialog
 
@@ -45,6 +48,7 @@ func shuffle_joke_array():
 func next_phrase() -> void:
 	audio.playing = true
 	
+	audio_manager.play_random_mumble_joke()
 	finished = false
 	
 	text.bbcode_text = dialog[joke_number]["joke"]
