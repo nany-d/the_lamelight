@@ -5,16 +5,29 @@ extends Node2D
 # if incorrect remove all, animations etc. happen then next joke new punchlines, -comedy
 
 const PunchLine = preload("res://game/punch_line.tscn")
+const CensorLine = preload("res://game/censored_line.tscn")
 
 @onready var joke = $"../Joke"
 @onready var audio_manager = $"/root/AudioEngine"
 @onready var joke_delay = $"../JokeDelay"
 @onready var shadow_people = $"../../GamePlaceholder/ShadowPeople"
+@onready var curtains = $"../../Curtains"
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
+var difficulty = GlobalSettings.difficulty
+
+# represents whether or not the show is still running
+var show_in_progress = true
 
 signal next_joke
+
+# If comedy is more than max_comedy 3 times you win, if comedy is less than min_comedy 3 times you lose
+const max_comedy = 18
+const min_comedy = -18
+
+var peak_comedy = 0
+var lives = 1
 
 func spawn_punchlines():
 	var correct_punch_chosen = false
@@ -35,24 +48,35 @@ func spawn_punchlines():
 			p.set_correct(false)
 			p.punch_line_button.connect("pressed", punch_line_check.bind(p))
 		p.visible_on_screen_notifier_2d.connect("screen_exited", fail_to_click)
+	if randi_range(difficulty, 100): # cant have difficulty more than 100
+		spawn_censored_line()
 			
+
+func spawn_censored_line():
+	var c = CensorLine.instantiate()
+	add_child(c)
+	c.position = Vector2(randi_range(3, 10) * 100, 0)
+	c.censored_button.connect("pressed", choose_censor)
+	# also need to have comedian do the censored animation and play censored beep
+	c.visible_on_screen_notifier_2d.connect("screen_exited", c.queue_free)
+	
 
 func fail_to_click():
 	if comedy > 0:
 		audio_manager.play_random_audience_cough()
 	else:
 		audio_manager.play_random_audience_disapproval()
-	comedy -= 1
+	change_comedy(-1)
 	print(comedy)
 	remove_punchlines()
 
 func punch_line_check(punch_line):
 	if (punch_line.is_correct):
-		comedy += punch_number
+		change_comedy(punch_number)
 		shadow_people._showRandomShadow()
 		audio_manager.play_random_clap_laugh()
 	else:
-		comedy -= punch_number
+		change_comedy(-punch_number)
 		shadow_people._hideRandomShadow()
 		if comedy > 0 and randi_range(1,2) == 2:
 			audio_manager.play_slow_clap()
@@ -67,7 +91,28 @@ func remove_punchlines():
 		child.queue_free()
 	joke_delay.start()
 
-	
+func choose_censor():
+	remove_punchlines()
+	for i in range(6):
+		shadow_people._hideRandomShadow()
+	change_comedy(-18)
+
+func change_comedy(amount : int):
+	comedy += amount
+	if comedy < min_comedy:
+		lives -= 1
+		comedy = min_comedy
+	elif comedy > max_comedy:
+		peak_comedy += 1
+		comedy = max_comedy
+	if lives <= 0:
+		print("You lose")
+		curtains.curtains_close()
+		# switch to lose screen
+	elif peak_comedy > 2:
+		print("You win")
+		curtains.curtains_close()
+		# switch to win screen
 
 func _on_joke_delay_timeout():
 	emit_signal("next_joke")
