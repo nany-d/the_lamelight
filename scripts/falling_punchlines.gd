@@ -12,6 +12,9 @@ const CensorLine = preload("res://game/censored_line.tscn")
 @onready var joke_delay = $"../JokeDelay"
 @onready var shadow_people = $"../../GamePlaceholder/ShadowPeople"
 @onready var curtains = $"../../Curtains"
+@onready var result_line = $"../ResultLine"
+@onready var not_jakes_joke_delay = $"../NotJakesJokeDelay"
+
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
@@ -74,6 +77,7 @@ func punch_line_check(punch_line):
 	if (punch_line.is_correct):
 		change_comedy(punch_number)
 		shadow_people._showRandomShadow()
+		punch_line.punch_line_text.modulate = Color(0, 1, 0)
 		audio_manager.play_random_clap_laugh()
 	else:
 		change_comedy(-punch_number)
@@ -84,6 +88,7 @@ func punch_line_check(punch_line):
 		else:
 			audio_manager.play_random_audience_disapproval()
 	print(comedy)
+	set_result_line(punch_line)
 	remove_punchlines()
 
 func remove_punchlines():
@@ -117,3 +122,16 @@ func change_comedy(amount : int):
 func _on_joke_delay_timeout():
 	emit_signal("next_joke")
 	joke_delay.wait_time = 3.2
+
+
+func set_result_line(punch_line):
+	result_line.add_text(punch_line.punch_line_text.text)
+	if punch_line.is_correct:
+		result_line.modulate = Color(0, 1, 0)
+	else:
+		result_line.modulate = Color(1, 0, 0)
+	not_jakes_joke_delay.start()
+
+
+func _on_not_jakes_joke_delay_timeout():
+	result_line.clear()

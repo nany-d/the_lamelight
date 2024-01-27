@@ -1,22 +1,33 @@
-[gd_scene load_steps=3 format=3 uid="uid://dhd1csyxhp7nr"]
+[gd_scene load_steps=7 format=3 uid="uid://dhd1csyxhp7nr"]
 
 [ext_resource type="Script" path="res://scripts/punch_line.gd" id="1_2xoh0"]
 [ext_resource type="FontFile" uid="uid://n1q51ljuyy06" path="res://ui/fonts/HiMelody-Regular.ttf" id="2_rsdao"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_aoutd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_81yrx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hcpsi"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xy3xu"]
 
 [node name="PunchLine" type="Node2D"]
 script = ExtResource("1_2xoh0")
 
 [node name="PunchLineButton" type="Button" parent="."]
-offset_right = 227.0
-offset_bottom = 132.0
+offset_right = 256.0
+offset_bottom = 80.0
+theme_override_styles/normal = SubResource("StyleBoxEmpty_aoutd")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_81yrx")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_hcpsi")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_xy3xu")
 
 [node name="PunchLineText" type="RichTextLabel" parent="."]
-offset_right = 226.0
-offset_bottom = 132.0
+offset_right = 256.0
+offset_bottom = 80.0
 mouse_filter = 2
-theme_override_colors/default_color = Color(1, 1, 1, 1)
+theme_override_colors/default_color = Color(1, 0.862745, 0, 1)
 theme_override_fonts/normal_font = ExtResource("2_rsdao")
-theme_override_font_sizes/normal_font_size = 40
-text = "sadfasdf"
+theme_override_font_sizes/normal_font_size = 72
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
