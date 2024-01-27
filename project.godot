@@ -15,14 +15,15 @@ run/main_scene="res://game/world.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GlobalSettings="*res://scripts/global_settings.gd"
+
 [display]
 
 window/size/viewport_width=2000
 window/size/viewport_height=1125
-
-[dotnet]
-
-project/assembly_name="The_Lamelight"
+window/stretch/mode="viewport"
 
 [filesystem]
 
