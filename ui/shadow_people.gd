@@ -3,7 +3,7 @@ var hiddenArray = []
 var shownArray = []
 
 func _ready():
-	for number in range (6):
+	for number in range(6):
 		shownArray.append(get_node("Shadow" + str(number + 1)))
 
 func _showRandomShadow():
