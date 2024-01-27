@@ -29,4 +29,7 @@ offset_right = 345.0
 offset_bottom = 195.0
 text = "THE LAMELIGHT"
 
+[node name="TitleDelay" type="Timer" parent="."]
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="TitleDelay" to="." method="_on_title_delay_timeout"]
