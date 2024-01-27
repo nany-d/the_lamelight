@@ -6,7 +6,8 @@ extends Control
 func _ready():
 	audio_manager.play_stage_intro()
 	print("Playing")
-	animplayer.play("RESET")
+	#animplayer.play("RESET")
+	curtains_open()
 
 func curtains_open():
 	animplayer.play("curtains_open")

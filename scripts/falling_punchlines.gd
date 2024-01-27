@@ -9,6 +9,7 @@ const PunchLine = preload("res://game/punch_line.tscn")
 @onready var joke = $"../Joke"
 @onready var audio_manager = $"/root/AudioEngine"
 @onready var joke_delay = $"../JokeDelay"
+@onready var shadow_people = $"../../GamePlaceholder/ShadowPeople"
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
@@ -37,18 +38,27 @@ func spawn_punchlines():
 			
 
 func fail_to_click():
-	audio_manager.play_random_audience_cough()
-	comedy -= punch_number
+	if comedy > 0:
+		audio_manager.play_random_audience_cough()
+	else:
+		audio_manager.play_random_audience_disapproval()
+	comedy -= 1
 	print(comedy)
 	remove_punchlines()
 
 func punch_line_check(punch_line):
 	if (punch_line.is_correct):
-		comedy += 1
+		comedy += punch_number
+		shadow_people._showRandomShadow()
 		audio_manager.play_random_clap_laugh()
 	else:
-		comedy -= 1
-		audio_manager.play_random_audience_disapproval()
+		comedy -= punch_number
+		shadow_people._hideRandomShadow()
+		if comedy > 0 and randi_range(1,2) == 2:
+			audio_manager.play_slow_clap()
+			joke_delay.wait_time = 5
+		else:
+			audio_manager.play_random_audience_disapproval()
 	print(comedy)
 	remove_punchlines()
 
@@ -57,6 +67,8 @@ func remove_punchlines():
 		child.queue_free()
 	joke_delay.start()
 
+	
 
 func _on_joke_delay_timeout():
 	emit_signal("next_joke")
+	joke_delay.wait_time = 3.2
