@@ -77,16 +77,19 @@ func punch_line_check(punch_line):
 	if (punch_line.is_correct):
 		change_comedy(punch_number)
 		shadow_people._showRandomShadow()
+		shadow_people._make_all_shadows_talk()
 		punch_line.punch_line_text.modulate = Color(0, 1, 0)
 		audio_manager.play_random_clap_laugh()
 	else:
 		change_comedy(-punch_number)
 		shadow_people._hideRandomShadow()
+		shadow_people._make_random_shadow_talk()
 		if comedy > 0 and randi_range(1,2) == 2:
 			audio_manager.play_slow_clap()
 			joke_delay.wait_time = 5
 		else:
 			audio_manager.play_random_audience_disapproval()
+
 	print(comedy)
 	set_result_line(punch_line)
 	remove_punchlines()

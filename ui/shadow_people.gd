@@ -25,3 +25,19 @@ func _hideRandomShadow():
 		print(str(rnum) + " was hidden")
 	else:
 		print("no hidden shadows!")
+
+func _make_random_shadow_talk():
+	if shownArray.size() > 0:
+		var rnum = randi() % shownArray.size()
+		shownArray[rnum].start_talking()
+		print("Shadow " + str(rnum + 1) + " is talking")
+	else:
+		print("No shadows available to talk!")
+		
+func _make_all_shadows_talk():
+	if shownArray.size() > 0:
+		for shadow in shownArray:
+			shadow.start_talking()
+		print("All shadows are talking")
+	else:
+		print("No shadows available to talk!")
