@@ -7,6 +7,7 @@ extends Control
 @onready var text = $JokeText
 @onready var audio = $Speak
 @onready var load_delay = $LoadTimer
+@onready var falling_punchlines = $"../FallingPunchlines"
 
 var dialog
 
@@ -36,6 +37,11 @@ func get_dialog() -> Array:
 		return []
 
 
+func shuffle_joke_array():
+	randomize()
+	dialog.shuffle()
+
+
 func next_phrase() -> void:
 	audio.playing = true
 	
@@ -54,8 +60,10 @@ func next_phrase() -> void:
 	audio.playing = false
 	finished = true
 	joke_number += 1
+	falling_punchlines.spawn_punchlines()
 	return
 
 
 func _on_load_timer_timeout():
 	dialog = get_dialog()
+	shuffle_joke_array()
