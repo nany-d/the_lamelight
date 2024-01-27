@@ -1,17 +1,23 @@
-[gd_scene load_steps=2 format=3 uid="uid://b1gsy3w58nksa"]
+[gd_scene load_steps=3 format=3 uid="uid://b1gsy3w58nksa"]
 
-[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_uotc2"]
+[ext_resource type="PackedScene" uid="uid://54wnwx4g0420" path="res://ui/joke.tscn" id="1_4hwai"]
+[ext_resource type="Script" path="res://ui/ui.gd" id="1_mobdp"]
 
 [node name="UI" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
+script = ExtResource("1_mobdp")
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="Joke" parent="." instance=ExtResource("1_4hwai")]
+
+[node name="Button" type="Button" parent="."]
 layout_mode = 0
-offset_left = 50.0
-offset_top = 944.0
-offset_right = 1952.0
-offset_bottom = 1084.0
-texture = SubResource("PlaceholderTexture2D_uotc2")
+offset_left = 61.0
+offset_top = 32.0
+offset_right = 322.0
+offset_bottom = 139.0
+text = "THE LAMELIGHT"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
