@@ -1,8 +1,17 @@
-[gd_scene load_steps=8 format=3 uid="uid://b1gsy3w58nksa"]
+[gd_scene load_steps=13 format=3 uid="uid://b1gsy3w58nksa"]
 
 [ext_resource type="PackedScene" uid="uid://54wnwx4g0420" path="res://ui/joke.tscn" id="1_4hwai"]
 [ext_resource type="Script" path="res://scripts/ui.gd" id="1_mh7at"]
 [ext_resource type="Script" path="res://scripts/falling_punchlines.gd" id="3_lnu6d"]
+[ext_resource type="FontFile" uid="uid://n1q51ljuyy06" path="res://ui/fonts/HiMelody-Regular.ttf" id="4_mdy5c"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_7rvjy"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_vxpxa"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_hq8p0"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rv255"]
 
 [sub_resource type="Animation" id="Animation_yh5df"]
 length = 0.001
@@ -76,14 +85,22 @@ offset_right = 1900.0
 offset_bottom = 1060.0
 
 [node name="Button" type="Button" parent="."]
+modulate = Color(1, 1, 0, 1)
 layout_mode = 0
-offset_left = 84.0
-offset_top = 88.0
-offset_right = 345.0
-offset_bottom = 195.0
+offset_left = 205.0
+offset_top = 165.0
+offset_right = 1027.0
+offset_bottom = 416.0
+theme_override_fonts/font = ExtResource("4_mdy5c")
+theme_override_font_sizes/font_size = 108
+theme_override_styles/normal = SubResource("StyleBoxEmpty_7rvjy")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_vxpxa")
+theme_override_styles/pressed = SubResource("StyleBoxEmpty_hq8p0")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_rv255")
 text = "THE LAMELIGHT"
 
 [node name="TitleDelay" type="Timer" parent="."]
+one_shot = true
 
 [node name="JokeDelay" type="Timer" parent="."]
 wait_time = 3.2
@@ -94,6 +111,20 @@ libraries = {
 "": SubResource("AnimationLibrary_l1huq")
 }
 
+[node name="ResultLine" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 1152.0
+offset_top = 224.0
+offset_right = 1536.0
+offset_bottom = 416.0
+theme_override_colors/default_color = Color(1, 0.854902, 0, 1)
+theme_override_fonts/normal_font = ExtResource("4_mdy5c")
+theme_override_font_sizes/normal_font_size = 108
+
+[node name="NotJakesJokeDelay" type="Timer" parent="."]
+wait_time = 1.5
+
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
 [connection signal="timeout" from="TitleDelay" to="." method="_on_title_delay_timeout"]
 [connection signal="timeout" from="JokeDelay" to="FallingPunchlines" method="_on_joke_delay_timeout"]
+[connection signal="timeout" from="NotJakesJokeDelay" to="FallingPunchlines" method="_on_not_jakes_joke_delay_timeout"]

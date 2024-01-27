@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://00jap8871a7q"]
 
 [ext_resource type="Texture2D" uid="uid://dknx2tljb0m1h" path="res://ui/placeholderimages/temp.jpg" id="1_17wk2"]
-[ext_resource type="PackedScene" uid="uid://1uvwagprwnjb" path="res://ui/shadow_people.tscn" id="2_w8vfe"]
+[ext_resource type="PackedScene" path="res://ui/shadow_people.tscn" id="2_w8vfe"]
 
 [node name="GamePlaceholder" type="Control"]
 layout_mode = 3
