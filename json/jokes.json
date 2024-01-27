@@ -112,7 +112,7 @@
   "level": "0"
  },
  {
-  "joke": "A proton, an electron, & a neutron walk into a bar. The proton orders a shot, drinks it, pulls out his wallet, and pays the bartender. The electron orders a shot, drinks it, pulls out his wallet, and pays the bartender. The neutron orders a shot, drinks it, then pulls out his wallet. The bartender stops him and says, \"for you, no <word>.",
+  "joke": "A proton, an electron, & a neutron walk into a bar. The proton orders a shot, drinks it, pulls out his wallet, and pays the bartender. The electron orders a shot, drinks it, pulls out his wallet, and pays the bartender. The neutron orders a shot, drinks it, then pulls out his wallet. The bartender stops him and says, for you, no <word>.",
   "choice_1": "charge...",
   "choice_2": "injection",
   "choice_3": "tt",
@@ -120,7 +120,7 @@
   "level": "0"
  },
  {
-  "joke": "Two atoms are walking down the street. One says, \"Oh no! I lost an electron!\", The other asks him, \"Are you sure?\", The first one says, \"Yeah, I'm <word>.",
+  "joke": "Two atoms are walking down the street. One says, Oh no! I lost an electron!, The other asks him, Are you sure?, The first one says, Yeah, I'm <word>.",
   "choice_1": "positive",
   "choice_2": "pmc",
   "choice_3": "descriptions",
@@ -128,10 +128,10 @@
   "level": "0"
  },
  {
-  "joke": "A ham sandwich walks into a bar and orders a beer. The bartender looks at him and says, \"Sorry we don't serve food <word>.",
+  "joke": "A ham sandwich walks into a bar and orders a beer. The bartender looks at him and says, Sorry we don't serve food <word>.",
   "choice_1": "here.",
   "choice_2": "story",
-  "choice_3": "va",
+  "choice_3": "JAKE",
   "expression": "Idle",
   "level": "0"
  },
@@ -216,7 +216,7 @@
   "level": "0"
  },
  {
-  "joke": "I asked the checkout girl for a date. She said \"They're in the fruit aisle next to the <word>.",
+  "joke": "I asked the checkout girl for a date. She said They're in the fruit aisle next to the <word>.",
   "choice_1": "bananas.",
   "choice_2": "degree",
   "choice_3": "geology",
@@ -616,7 +616,7 @@
   "level": "0"
  },
  {
-  "joke": "Did you hear that the police have a warrant out on a midget psychic ripping people off? It reads \"Small medium at <word>.",
+  "joke": "Did you hear that the police have a warrant out on a midget psychic ripping people off? It reads Small medium at <word>.",
   "choice_1": "large.",
   "choice_2": "lexmark",
   "choice_3": "decorating",
@@ -688,7 +688,7 @@
   "level": "0"
  },
  {
-  "joke": "A Mexican magician says he'll disappear on the count of 3; \"Uno... dos... poof...\". He disappeared without a <word>.",
+  "joke": "A Mexican magician says he'll disappear on the count of 3; Uno... dos... poof.... He disappeared without a <word>.",
   "choice_1": "tres",
   "choice_2": "roughly",
   "choice_3": "ads",
@@ -703,119 +703,119 @@
   "expression": "Idle",
   "level": "0"
  },
-	{
-		"joke": "I wonder why coffins are padded - is it in case they wake up? Memory foam for a death to <word>",
-		"choice_1": "remember",
-		"choice_2": "spaghetti",
-		"choice_3": "astronaut",
-		"expression" : "Skull",
-		"level": 1
-	},
-	{
-		"joke": "Age is just a <word>, that time did on my face",
-		"choice_1": "number",
-		"choice_2": "banana",
-		"choice_3": "unicorn",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "Krillin is a good guy, before doing stuff he checked she was <word>.",
-		"choice_1": "18",
-		"choice_2": "42",
-		"choice_3": "69",
-		"expression" : "Idle",
-		"level": 2
-	},
-	{
-		"joke": "Necrophiliacs are very thorough when it comes to their sex lives, they leave no <word> unturned.",
-		"choice_1": "body",
-		"choice_2": "tombstone",
-		"choice_3": "yoghurt",
-		"expression" : "Skull",
-		"level": 2
-	},
-	{
-		"joke": "I am a broke mathematician, I am friends with all <word> but my credit score.",
-		"choice_1": "numbers",
-		"choice_2": "equations",
-		"choice_3": "circles",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "According to the bank, If my prospects were a month they would be <word>.",
-		"choice_1": "debtember",
-		"choice_2": "shortuary",
-		"choice_3": "mortuary",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "Breaking News - Cage fight: Musk tears Zuckerberg apart, all that's left of him is <word>",
-		"choice_1": "Threads",
-		"choice_2": "Pokes",
-		"choice_3": "Likes",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "I think I found my place in the universe: I’m just a <word> between my employer, and my landlord",
-		"choice_1": "wire",
-		"choice_2": "stupid",
-		"choice_3": "guy",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "Why don't scientists trust atoms? Because they make up <word>.",
-		"choice_1": "everything",
-		"choice_2": "pancakes",
-		"choice_3": "dance moves",
-		"expression" : "Atom",
-		"level": 0
-	},
-	{
-		"joke": "I'm reading a book on anti-gravity. It's impossible to <word>.",
-		"choice_1": "put down",
-		"choice_2": "fry eggs",
-		"choice_3": "ride unicorns",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "I told my suitcases there will be no vacation this year. Now I'm dealing with emotional <word>.",
-		"choice_1": "baggage",
-		"choice_2": "penguins",
-		"choice_3": "lasagna",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "I would tell you a roof joke, but it's probably over your <word>.",
-		"choice_1": "head",
-		"choice_2": "banana",
-		"choice_3": "aquarium",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "I broke up with my gym. We just weren't <word> out.",
-		"choice_1": "working",
-		"choice_2": "dancing",
-		"choice_3": "cooking",
-		"expression" : "Idle",
-		"level": 0
-	},
-	{
-		"joke": "What did the janitor say when he jumped out of the closet? <word>!",
-		"choice_1": "Supplies",
-		"choice_2": "Buckets",
-		"choice_3": "Mops away",
-		"expression" : "Embarassed",
-		"level": 0
-	},
-	{
+{
+    "joke": "I wonder why coffins are padded - is it in case they wake up? Memory foam for a death to <word>",
+    "choice_1": "remember",
+    "choice_2": "spaghetti",
+    "choice_3": "astronaut",
+    "expression" : "Skull",
+    "level": 1
+},
+{
+    "joke": "Age is just a <word>, that time did on my face",
+    "choice_1": "number",
+    "choice_2": "banana",
+    "choice_3": "unicorn",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "Krillin is a good guy, before doing stuff he checked she was <word>.",
+    "choice_1": "18",
+    "choice_2": "42",
+    "choice_3": "69",
+    "expression" : "Idle",
+    "level": 2
+},
+{
+    "joke": "Necrophiliacs are very thorough when it comes to their sex lives, they leave no <word> unturned.",
+    "choice_1": "body",
+    "choice_2": "tombstone",
+    "choice_3": "yoghurt",
+    "expression" : "Skull",
+    "level": 2
+},
+{
+    "joke": "I am a broke mathematician, I am friends with all <word> but my credit score.",
+    "choice_1": "numbers",
+    "choice_2": "equations",
+    "choice_3": "circles",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "According to the bank, If my prospects were a month they would be <word>.",
+    "choice_1": "debtember",
+    "choice_2": "shortuary",
+    "choice_3": "mortuary",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "Breaking News - Cage fight: Musk tears Zuckerberg apart, all that's left of him is <word>",
+    "choice_1": "Threads",
+    "choice_2": "Pokes",
+    "choice_3": "Likes",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "I think I found my place in the universe: I’m just a <word> between my employer, and my landlord",
+    "choice_1": "wire",
+    "choice_2": "stupid",
+    "choice_3": "guy",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "Why don't scientists trust atoms? Because they make up <word>.",
+    "choice_1": "everything",
+    "choice_2": "pancakes",
+    "choice_3": "dance moves",
+    "expression" : "Atom",
+    "level": 0
+},
+{
+    "joke": "I'm reading a book on anti-gravity. It's impossible to <word>.",
+    "choice_1": "put down",
+    "choice_2": "fry eggs",
+    "choice_3": "ride unicorns",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "I told my suitcases there will be no vacation this year. Now I'm dealing with emotional <word>.",
+    "choice_1": "baggage",
+    "choice_2": "penguins",
+    "choice_3": "lasagna",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "I would tell you a roof joke, but it's probably over your <word>.",
+    "choice_1": "head",
+    "choice_2": "banana",
+    "choice_3": "aquarium",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "I broke up with my gym. We just weren't <word> out.",
+    "choice_1": "working",
+    "choice_2": "dancing",
+    "choice_3": "cooking",
+    "expression" : "Idle",
+    "level": 0
+},
+{
+    "joke": "What did the janitor say when he jumped out of the closet? <word>!",
+    "choice_1": "Supplies",
+    "choice_2": "Buckets",
+    "choice_3": "Mops away",
+    "expression" : "Embarassed",
+    "level": 0
+},
+{
   "joke": "I haven't talked to my wife in a week - I didn't want to interrupt <word>.",
   "choice_1": "her.",
   "choice_2": "thus",
@@ -848,7 +848,7 @@
   "level": "1"
  },
  {
-  "joke": "My wife left a note on the fridge that said, \"This isn't working.\" I'm not sure what she's talking about. I opened the fridge door and it's working <word>.",
+  "joke": "My wife left a note on the fridge that said, This isn't working. I'm not sure what she's talking about. I opened the fridge door and it's working <word>.",
   "choice_1": "fine?",
   "choice_2": "sleeps",
   "choice_3": "quilt",
@@ -872,24 +872,24 @@
   "level": "1"
  },
  {
-  "joke": "A man wakes from a coma. His wife changes out of her black clothes and, irritated, remarks, \"I really cannot depend on you in anything, can <word>.",
-  "choice_1": "I!\"",
+  "joke": "A man wakes from a coma. His wife changes out of her black clothes and, irritated, remarks, I really cannot depend on you in anything, can <word>.",
+  "choice_1": "I!",
   "choice_2": "exports",
   "choice_3": "calculated",
   "expression": "Idle",
   "level": "1"
  },
  {
-  "joke": "Wife: \"I'm pregnant.\" Husband: \"Hi pregnant, I'm dad.\" Wife: \"No, you're <word>.",
-  "choice_1": "not.\"",
+  "joke": "Wife: I'm pregnant. Husband: Hi pregnant, I'm dad. Wife: No, you're <word>.",
+  "choice_1": "not.",
   "choice_2": "math",
   "choice_3": "cradle",
   "expression": "Idle",
   "level": "1"
  },
  {
-  "joke": "My marriage counselor asked if it was true that I generally wake up grumpy in the morning. I said, \"Nah, most of the time I just let him <word>.",
-  "choice_1": "sleep.\"",
+  "joke": "My marriage counselor asked if it was true that I generally wake up grumpy in the morning. I said, Nah, most of the time I just let him <word>.",
+  "choice_1": "sleep.",
   "choice_2": "ought",
   "choice_3": "spider",
   "expression": "Idle",
@@ -905,7 +905,7 @@
  },
  {
   "joke": "As I get older, I remember all the people I lost along the way. Maybe a career as a tour guide was not the right choice. <word>.",
-  "choice_1": "",
+  "choice_1": "???",
   "choice_2": "cabinet",
   "choice_3": "instructor",
   "expression": "Idle",
@@ -928,7 +928,7 @@
   "level": "1"
  },
  {
-  "joke": "My mom died when we couldn't remember her blood type. As she died, she kept telling us to \"be positive,\" but it's hard without <word>.",
+  "joke": "My mom died when we couldn't remember her blood type. As she died, she kept telling us to be positive, but it's hard without <word>.",
   "choice_1": "her.",
   "choice_2": "possibly",
   "choice_3": "sofa",
@@ -936,7 +936,7 @@
   "level": "1"
  },
  {
-  "joke": "Today, I asked my phone \"Siri, why am I still single?\" and it activated the front <word>.",
+  "joke": "Today, I asked my phone Siri, why am I still single? and it activated the front <word>.",
   "choice_1": "camera.",
   "choice_2": "agreement",
   "choice_3": "married",
@@ -952,7 +952,7 @@
   "level": "1"
  },
  {
-  "joke": "My girlfriend's birthday is in a week and she said, \"Nothing would make me happier than a diamond ring!\" So I got her <word>.",
+  "joke": "My girlfriend's birthday is in a week and she said, Nothing would make me happier than a diamond ring! So I got her <word>.",
   "choice_1": "nothing.",
   "choice_2": "scratch",
   "choice_3": "causes",
@@ -960,8 +960,8 @@
   "level": "1"
  },
  {
-  "joke": "My boyfriend said to me the other day, \"If anything ever happens to me, I want you to meet someone new.\" Apparently, getting stuck in traffic doesn't count as <word>.",
-  "choice_1": "\"anything.\"",
+  "joke": "My boyfriend said to me the other day, If anything ever happens to me, I want you to meet someone new. Apparently, getting stuck in traffic doesn't count as <word>.",
+  "choice_1": "anything.",
   "choice_2": "treasure",
   "choice_3": "involving",
   "expression": "Idle",
@@ -984,8 +984,8 @@
   "level": "1"
  },
  {
-  "joke": "Why did Mozart hate all of his chickens? When he asked them who the best composer was, they all replied, \"Bach, Bach, <word>.",
-  "choice_1": "Bach.\"",
+  "joke": "Why did Mozart hate all of his chickens? When he asked them who the best composer was, they all replied, Bach, Bach, <word>.",
+  "choice_1": "Bach.",
   "choice_2": "ingredients",
   "choice_3": "trinity",
   "expression": "Idle",
