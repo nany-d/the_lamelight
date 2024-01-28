@@ -8,7 +8,6 @@ signal change_sprite
 
 func _on_change_sprite():
 	animSprite.play(animname)
-	pass # Replace with function body.
 
 func change_and_anim_sprite(_animname, _waitforreset):
 	resetTimer.stop()

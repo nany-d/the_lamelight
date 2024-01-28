@@ -2,6 +2,16 @@ extends Node2D
 
 @onready var animplayer = $ShadowAnimPlayer
 @onready var audio_manager = $"/root/AudioEngine"
+@onready var shadow_sprite = $ShadowSprite
+
+const CROWD_MEMBER_1 = preload("res://art/tempui/Crowd/CrowdMember1.png")
+const CROWD_MEMBER_2 = preload("res://art/tempui/Crowd/CrowdMember2.PNG")
+const CROWD_MEMBER_3 = preload("res://art/tempui/Crowd/CrowdMember3.PNG")
+const CROWD_MEMBER_4 = preload("res://art/tempui/Crowd/CrowdMember4.PNG")
+const CROWD_MEMBER_5 = preload("res://art/tempui/Crowd/CrowdMember5.PNG")
+const CROWD_MEMBER_6 = preload("res://art/tempui/Crowd/CrowdMember6.PNG")
+
+const CROWD_MEMBERS = [CROWD_MEMBER_1, CROWD_MEMBER_2, CROWD_MEMBER_3, CROWD_MEMBER_4, CROWD_MEMBER_5, CROWD_MEMBER_6]
 
 var original_position = Vector2()
 var is_talking = false
@@ -16,8 +26,10 @@ func _ready():
 	animplayer.play("RESET")
 	original_position = position
 	phase_offset = randf() * 2 * PI
-
+	shadow_sprite.texture = CROWD_MEMBERS[randi_range(0, CROWD_MEMBERS.size()-1)]
+	
 func shadow_show():
+	shadow_sprite.texture = CROWD_MEMBERS[randi_range(0, CROWD_MEMBERS.size()-1)]
 	animplayer.play("shadow_show")
 
 func shadow_hide():

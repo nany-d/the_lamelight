@@ -1,5 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://dfnauvfmc2av4"]
 
+
 [ext_resource type="Script" path="res://ui/Comedian.gd" id="1_qhuu5"]
 [ext_resource type="Texture2D" uid="uid://d0jdwil0d06w4" path="res://art/tempui/frames_comedian/comedia_censored.png" id="2_fcb32"]
 [ext_resource type="Texture2D" uid="uid://ch6fripyhe8jv" path="res://art/tempui/frames_comedian/comedian_embarassed.png" id="3_6o1cr"]

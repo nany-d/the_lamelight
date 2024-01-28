@@ -5,6 +5,8 @@ var shownArray = []
 func _ready():
 	for number in range(6):
 		shownArray.append(get_node("Shadow" + str(number + 1)))
+		if number >= 4:
+			get_node("Shadow" + str(number + 1)).shadow_sprite.flip_h = 1
 
 func _showRandomShadow():
 	if hiddenArray.size() > 0:
