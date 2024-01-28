@@ -15,7 +15,7 @@ const CensorLine = preload("res://game/censored_line.tscn")
 @onready var result_line = $"../ResultLine"
 @onready var not_jakes_joke_delay = $"../NotJakesJokeDelay"
 @onready var comedian = $"../../GamePlaceholder/Comedian"
-
+@onready var level_header = $"../LevelHeader"
 
 
 var comedy = GlobalSettings.comedy
@@ -39,6 +39,7 @@ func _ready():
 	#print(comedian.animSprite.animation_finished)
 	
 func spawn_punchlines():
+	level_header.text = "Act: " + str(GlobalSettings.level)
 	var correct_punch_chosen = false
 	var false_array = [2, 3]	
 	
@@ -59,9 +60,9 @@ func spawn_punchlines():
 
 	# Level management
 	progress += 1
-	if progress % 7 == 0:
+	if progress % 2 == 0: # change back to 7
 		GlobalSettings.set_level(GlobalSettings.level + 1)
-	if GlobalSettings.level >= 3 and randi_range(1, 5) == 3:
+	if GlobalSettings.level >= 0 and randi_range(1, 3) == 3: # change back to 3, 5
 		spawn_censored_line()
 	print(progress)
 	print(GlobalSettings.level)
@@ -77,6 +78,7 @@ func spawn_censored_line():
 	
 
 func fail_to_click():
+	comedian.change_and_anim_sprite("embarrassed", 55)
 	if comedy > 9:
 		audio_manager.play_random_audience_cough()
 	else:
@@ -96,10 +98,12 @@ func punch_line_check(punch_line):
 		shadow_people._showRandomShadow()
 		shadow_people._make_all_shadows_talk()
 		punch_line.punch_line_text.modulate = Color(0, 1, 0)
+		comedian.change_and_anim_sprite("happy", 55)
 		audio_manager.play_random_clap_laugh()
 		comedian.change_and_anim_sprite("happy", 3)
 	else:
 		change_comedy(-punch_number * GlobalSettings.level)
+		comedian.change_and_anim_sprite("embarrassed", 55)
 		for number in GlobalSettings.level:
 			shadow_people._hideRandomShadow()
 		shadow_people._make_random_shadow_talk()

@@ -16,12 +16,6 @@ func change_and_anim_sprite(_animname, _waitforreset):
 	resetTimer.wait_time = _waitforreset
 	resetTimer.start()
 
-func _on_test_button_pressed():
-	var arr = ["censored","embarrassed","gameover","happy","happy_success","joke","skull"]
-	var i = randi() % 7
-	change_and_anim_sprite(arr[i], 3)
-	pass # Replace with function body.
-
 
 func _on_reset_timer_timeout():
 	animname = "idle"

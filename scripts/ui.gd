@@ -5,10 +5,12 @@ extends Control
 @onready var audio_engine = get_node("../AudioEngine")
 @onready var button = $Button
 @onready var title_delay = $TitleDelay
+@onready var comedian = $"../GamePlaceholder/Comedian"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	joke.visible = false
+	comedian.change_and_anim_sprite("idle", 55)
 	falling_punchlines.next_joke.connect(play_next_joke)
 
 
