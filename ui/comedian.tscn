@@ -16,7 +16,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("2_fcb32")
 }],
-"loop": true,
+"loop": false,
 "name": &"censored",
 "speed": 5.0
 }, {
@@ -24,15 +24,15 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("3_6o1cr")
 }],
-"loop": true,
-"name": &"embarassed",
+"loop": false,
+"name": &"embarrassed",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("4_ybgdu")
 }],
-"loop": true,
+"loop": false,
 "name": &"gameover",
 "speed": 5.0
 }, {
@@ -40,7 +40,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("5_jjuf2")
 }],
-"loop": true,
+"loop": false,
 "name": &"happy",
 "speed": 5.0
 }, {
@@ -48,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("6_fkx1y")
 }],
-"loop": true,
+"loop": false,
 "name": &"happy_success",
 "speed": 5.0
 }, {
@@ -56,7 +56,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("7_u1b78")
 }],
-"loop": true,
+"loop": false,
 "name": &"idle",
 "speed": 5.0
 }, {
@@ -64,7 +64,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("8_uff7s")
 }],
-"loop": true,
+"loop": false,
 "name": &"joke",
 "speed": 5.0
 }, {
@@ -72,7 +72,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("9_pi5hi")
 }],
-"loop": true,
+"loop": false,
 "name": &"skull",
 "speed": 5.0
 }]
@@ -110,15 +110,15 @@ tracks/0/keys = {
 tracks/1/type = "method"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath(".")
+tracks/1/path = NodePath("..")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
-"times": PackedFloat32Array(0.1),
+"times": PackedFloat32Array(0.0796565),
 "transitions": PackedFloat32Array(1),
 "values": [{
-"args": [&"", 1.0, false],
-"method": &"play"
+"args": [&"change_sprite"],
+"method": &"emit_signal"
 }]
 }
 
@@ -135,7 +135,7 @@ script = ExtResource("1_qhuu5")
 position = Vector2(1607, 726)
 scale = Vector2(0.46137, 0.46137)
 sprite_frames = SubResource("SpriteFrames_xvce6")
-animation = &"idle"
+animation = &"happy"
 offset = Vector2(0, -500)
 
 [node name="ComedianAnimPlayer" type="AnimationPlayer" parent="ComedianAnimatedSprite"]
@@ -143,6 +143,15 @@ libraries = {
 "": SubResource("AnimationLibrary_clx7n")
 }
 
-[node name="Button" type="Button" parent="."]
-offset_right = 8.0
-offset_bottom = 8.0
+[node name="TestButton" type="Button" parent="."]
+offset_left = 1559.0
+offset_top = 124.0
+offset_right = 1659.0
+offset_bottom = 200.0
+text = "TestAnim"
+
+[node name="ResetTimer" type="Timer" parent="."]
+
+[connection signal="change_sprite" from="." to="." method="_on_change_sprite"]
+[connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]
+[connection signal="timeout" from="ResetTimer" to="." method="_on_reset_timer_timeout"]
