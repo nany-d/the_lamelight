@@ -22,10 +22,15 @@ func _process(_delta):
 
 func _on_button_pressed():
 	# choose a joke, pass the correct punchline and maybe the incorrect as well to falling_punchlines.spawn_punchlines
-	joke.visible = true
-	joke.next_phrase()
+	
 	button.queue_free()
 	curtains.curtains_open()
+	
+	await curtains.animplayer.animation_finished
+
+	
+	joke.visible = true
+	joke.next_phrase()
 
 
 func _on_title_delay_timeout():
