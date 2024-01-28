@@ -15,7 +15,6 @@ const CROWD_MEMBERS = [CROWD_MEMBER_1, CROWD_MEMBER_2, CROWD_MEMBER_3, CROWD_MEM
 
 var original_position = Vector2()
 var is_talking = false
-var is_leaving = false
 var talk_time_elapsed = 0.0
 var talk_duration = 3.0  # Duration of the talking animation in seconds
 var amplitude = 50.0  # Amplitude of the sine wave motion
