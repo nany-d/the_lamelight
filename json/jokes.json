@@ -1,33 +1,33 @@
 [
  {
-  "joke": "When the window fell into the incinerator, it was a pane in the ash to ____.",
-  "choice_1": "retrieve",
-  "choice_2": "preferences",
+  "joke": "When the window fell into the incinerator, it was a pane in the ____ to receive.",
+  "choice_1": "ash",
+  "choice_2": "birch",
   "choice_3": "rendering",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's a pirate's favorite letter? It be the ____.",
-  "choice_1": "Se",
-  "choice_2": "sq",
-  "choice_3": "outline",
+  "choice_1": "C",
+  "choice_2": "B",
+  "choice_3": "Z",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "How do you count cows? A ____.",
   "choice_1": "'Cow'culato",
-  "choice_2": "organizational",
-  "choice_3": "miles",
+  "choice_2": "Farmulator",
+  "choice_3": "Kilometer",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "Did you hear about the guy whose whole left side was cut off? He's all right ____.",
-  "choice_1": "now",
-  "choice_2": "proteins",
-  "choice_3": "usda",
+  "joke": "Did you hear about the guy whose whole left side was cut off? He's all ____ now.",
+  "choice_1": "right",
+  "choice_2": "protein",
+  "choice_3": "ASDA",
   "expression": "Idle",
   "level": "0"
  },
@@ -42,7 +42,7 @@
  {
   "joke": "Two peanuts were walking down the street. One was a ____.",
   "choice_1": "salted",
-  "choice_2": "artificial",
+  "choice_2": "pushover",
   "choice_3": "company",
   "expression": "Idle",
   "level": "0"
@@ -50,23 +50,23 @@
  {
   "joke": "My son asked me to stop singing Oasis songs in public. I said ____.",
   "choice_1": "maybe",
-  "choice_2": "dont",
+  "choice_2": "don't",
   "choice_3": "sail",
-  "expression": "Idle",
+  "expression": "Happy",
   "level": "0"
  },
  {
   "joke": "I used to be a banker but I lost ____.",
-  "choice_1": "interes",
+  "choice_1": "interest",
   "choice_2": "conferences",
-  "choice_3": "advance",
+  "choice_3": "advancements",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Why did the golfer bring two pairs of pants? In case he got a ____.",
   "choice_1": "hole-in-one",
-  "choice_2": "script",
+  "choice_2": "room",
   "choice_3": "voyuer",
   "expression": "Idle",
   "level": "0"
@@ -75,95 +75,95 @@
   "joke": "To the man in the wheelchair that stole my camouflage jacket; You can hide, but you can't ____.",
   "choice_1": "run",
   "choice_2": "vbulletin",
-  "choice_3": "weekend",
+  "choice_3": "vlookup",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "When my wife told me to stop impersonating a flamingo, I had to put my foot ____.",
   "choice_1": "down",
-  "choice_2": "selecting",
-  "choice_3": "cas",
+  "choice_2": "up",
+  "choice_3": "job",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "The rotation of earth really makes my ____.",
   "choice_1": "day",
-  "choice_2": "kerry",
+  "choice_2": "season",
   "choice_3": "birth",
-  "expression": "Idle",
+  "expression": "Happy",
   "level": "0"
  },
  {
   "joke": "Why do chicken coops only have two doors? Because if they had four, they would be chicken ____.",
   "choice_1": "sedans",
-  "choice_2": "celebrity",
-  "choice_3": "containing",
+  "choice_2": "celebrities",
+  "choice_3": "nuggets",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "How do you find Will Smith in the snow? You look for the fresh ____.",
   "choice_1": "prints",
-  "choice_2": "costume",
-  "choice_3": "except",
+  "choice_2": "slaps",
+  "choice_3": "Chris Rock",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "A proton, an electron, & a neutron walk into a bar. The proton orders a shot, drinks it, pulls out his wallet, and pays the bartender. The electron orders a shot, drinks it, pulls out his wallet, and pays the bartender. The neutron orders a shot, drinks it, then pulls out his wallet. The bartender stops him and says, for you, no ____.",
-  "choice_1": "charge...",
-  "choice_2": "injection",
-  "choice_3": "tt",
-  "expression": "Idle",
+  "joke": "I'd tell you a chemistry joke but all the good ones ____.",
+  "choice_1": "argon",
+  "choice_2": "helium",
+  "choice_3": "praseodymium",
+  "expression": "Happy",
   "level": "0"
  },
  {
-  "joke": "Two atoms are walking down the street. One says, Oh no! I lost an electron!, The other asks him, Are you sure?, The first one says, Yeah, I'm ____.",
+  "joke": "Two atoms are walking down the street. One says, Oh no! I lost an electron!, The other asks him, Are you sure? Yeah, I'm ____.",
   "choice_1": "positive",
-  "choice_2": "pmc",
-  "choice_3": "descriptions",
+  "choice_2": "negative",
+  "choice_3": "neutural",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "A ham sandwich walks into a bar and orders a beer. The bartender looks at him and says, Sorry we don't serve food ____.",
-  "choice_1": "here.",
-  "choice_2": "story",
-  "choice_3": "JAKE",
+  "joke": "A ham sandwich walks into a bar and orders a beer. The bartender looks at him and says, Sorry we don't serve ____ here.",
+  "choice_1": "food",
+  "choice_2": "stories",
+  "choice_3": "Jake",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What is Beethoven's favorite fruit? A ____.",
   "choice_1": "ba-na-na-na",
-  "choice_2": "seeking",
+  "choice_2": "apple",
   "choice_3": "orange",
-  "expression": "Idle",
+  "expression": "Embarassed",
   "level": "0"
  },
  {
   "joke": "I had a dream that I was a muffler last night. I woke up ____.",
   "choice_1": "exhausted",
-  "choice_2": "coordination",
-  "choice_3": "harbour",
+  "choice_2": "coordinated",
+  "choice_3": "hungover",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Two guys walk into a bar, the third one ____.",
   "choice_1": "ducks",
-  "choice_2": "concentrate",
-  "choice_3": "occupations",
+  "choice_2": "dreams",
+  "choice_3": "occupies",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What time did the man go to the dentist? Tooth ____.",
   "choice_1": "hurt-y",
-  "choice_2": "secured",
-  "choice_3": "comics",
+  "choice_2": "30",
+  "choice_3": "thirty",
   "expression": "Idle",
   "level": "0"
  },
@@ -171,94 +171,94 @@
   "joke": "Found out I was colour blind the other day... That one came right out the ____.",
   "choice_1": "purple",
   "choice_2": "rouge",
-  "choice_3": "ill",
+  "choice_3": "woods",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Where are average things built? In the ____.",
   "choice_1": "satisfactory",
-  "choice_2": "essay",
-  "choice_3": "fruits",
+  "choice_2": "easy",
+  "choice_3": "factory",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Yesterday a clown held a door open for me. I thought it was a nice ____.",
   "choice_1": "jester",
-  "choice_2": "der",
-  "choice_3": "leu",
+  "choice_2": "joke",
+  "choice_3": "laugh",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Just read a few facts about frogs. They were ____.",
   "choice_1": "ribbiting",
-  "choice_2": "recipient",
-  "choice_3": "shut",
+  "choice_2": "entertaining",
+  "choice_3": "boring",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "I just swapped our bed for a trampoline. My wife hit the ____.",
   "choice_1": "roof",
-  "choice_2": "c",
-  "choice_3": "eval",
-  "expression": "Idle",
+  "choice_2": "Middle C",
+  "choice_3": "brakes",
+  "expression": "Embarassed",
   "level": "0"
  },
  {
   "joke": "Astronomers got tired of watching the moon go round the earth for 24 hours, so they decided to call it a ____.",
   "choice_1": "day",
-  "choice_2": "rational",
-  "choice_3": "tip",
+  "choice_2": "week",
+  "choice_3": "trip",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "I asked the checkout girl for a date. She said They're in the fruit aisle next to the ____.",
-  "choice_1": "bananas.",
-  "choice_2": "degree",
-  "choice_3": "geology",
-  "expression": "Idle",
+  "choice_1": "bananas",
+  "choice_2": "condoms",
+  "choice_3": "manga",
+  "expression": "Skull",
   "level": "0"
  },
  {
   "joke": "What's the difference between a well dressed man on a a bicycle and a poorly dressed man on a tricycle? ____.",
   "choice_1": "Attire",
-  "choice_2": "yacht",
-  "choice_3": "entire",
+  "choice_2": "Yachts",
+  "choice_3": "Entire",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What did the pirate say on his 80th birthday? Aye ____.",
-  "choice_1": "mate",
-  "choice_2": "clinton",
-  "choice_3": "prospective",
+  "choice_1": "matey",
+  "choice_2": "Clinton",
+  "choice_3": "aye",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What do you call a sketchy Italian neighbourhood? The ____.",
   "choice_1": "Spaghetto",
-  "choice_2": "navigate",
+  "choice_2": "Endz",
   "choice_3": "bits",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "I have kleptomania, but when it gets bad, I take something for ____.",
-  "choice_1": "it",
-  "choice_2": "turkish",
-  "choice_3": "tr",
+  "joke": "I have kleptomania, but when it gets bad, I take ____ for it.",
+  "choice_1": "something",
+  "choice_2": "fire",
+  "choice_3": "calpol",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Doorbells, don't knock ____.",
   "choice_1": "'em",
-  "choice_2": "technological",
+  "choice_2": "technology",
   "choice_3": "pentium",
   "expression": "Idle",
   "level": "0"
@@ -266,8 +266,8 @@
  {
   "joke": "My wife is on a tropical food diet, the house is full of the stuff. It's enough to make a mango ____.",
   "choice_1": "crazy",
-  "choice_2": "macro",
-  "choice_3": "acceptance",
+  "choice_2": "pie",
+  "choice_3": "ice cream",
   "expression": "Idle",
   "level": "0"
  },
@@ -275,55 +275,47 @@
   "joke": "Whiteboards are ____.",
   "choice_1": "remarkable",
   "choice_2": "tales",
-  "choice_3": "call",
-  "expression": "Idle",
+  "choice_3": "slay",
+  "expression": "Happy",
   "level": "0"
  },
  {
-  "joke": "Why do so many people with laser hair want to get it ____.",
+  "joke": "Why do so many people with laser hair want to get it ____?",
   "choice_1": "removed",
-  "choice_2": "planets",
-  "choice_3": "flavor",
-  "expression": "Idle",
-  "level": "0"
- },
- {
-  "joke": "What has twenty legs and flies? Ten pairs of ____.",
-  "choice_1": "pants",
-  "choice_2": "out",
-  "choice_3": "coin",
+  "choice_2": "fired",
+  "choice_3": "flavored",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What has twenty legs and flies? Five dead ____.",
-  "choice_1": "Horses",
-  "choice_2": "affected",
-  "choice_3": "stationery",
-  "expression": "Idle",
+  "choice_1": "horses",
+  "choice_2": "pencils",
+  "choice_3": "crabs",
+  "expression": "Skull",
   "level": "0"
  },
  {
   "joke": "What do you call a fish with no eyes? ____.",
   "choice_1": "Fsh",
-  "choice_2": "treating",
-  "choice_3": "adding",
+  "choice_2": "No idea",
+  "choice_3": "A man",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What do you get if you cross the Atlantic with the Titanic? About ____.",
   "choice_1": "halfway",
-  "choice_2": "handed",
+  "choice_2": "interest",
   "choice_3": "orbit",
-  "expression": "Idle",
+  "expression": "Happy",
   "level": "0"
  },
  {
   "joke": "Why do bakers work so hard? They knead the ____.",
   "choice_1": "dough",
-  "choice_2": "midnight",
-  "choice_3": "deputy",
+  "choice_2": "p's",
+  "choice_3": "dollar",
   "expression": "Idle",
   "level": "0"
  },
@@ -338,24 +330,24 @@
  {
   "joke": "Why shouldn't you play cards in the jungle? Too many ____.",
   "choice_1": "cheetahs",
-  "choice_2": "division",
-  "choice_3": "gate",
+  "choice_2": "caterpillars",
+  "choice_3": "gates",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's big, red, and eats rocks? A big, red, ____.",
   "choice_1": "rock-eater",
-  "choice_2": "kills",
-  "choice_3": "disciplines",
-  "expression": "Idle",
+  "choice_2": "killer",
+  "choice_3": "baboon",
+  "expression": "Embarassed",
   "level": "0"
  },
  {
   "joke": "How do you make toast in the jungle? Pop your bread under a ____.",
   "choice_1": "g'rilla",
-  "choice_2": "came",
-  "choice_3": "eminem",
+  "choice_2": "foreman",
+  "choice_3": "rapper",
   "expression": "Idle",
   "level": "0"
  },
@@ -363,55 +355,55 @@
   "joke": "What lies on the ocean floor and shivers? A nervous ____.",
   "choice_1": "wreck",
   "choice_2": "dam",
-  "choice_3": "birds",
+  "choice_3": "bird",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Who is the quickest draw in the ocean? Billy the ____.",
   "choice_1": "Squid",
-  "choice_2": "andale",
-  "choice_3": "updated",
+  "choice_2": "Andal",
+  "choice_3": "Microwave",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's the difference between a jeweller and a prison warden? One sells watches, and the other watches ____.",
   "choice_1": "cells",
-  "choice_2": "conventional",
-  "choice_3": "roland",
+  "choice_2": "conviences",
+  "choice_3": "paint dry",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's brown and sticky? A ____.",
   "choice_1": "stick",
-  "choice_2": "skirts",
-  "choice_3": "expected",
+  "choice_2": "ruler",
+  "choice_3": "carrot",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "Why did the banana go to the doctors'? He wasn't peeling very ____.",
-  "choice_1": "well",
-  "choice_2": "squad",
-  "choice_3": "calvin",
+  "joke": "Why did the banana go to the doctors'? He wasn't ____ very well.",
+  "choice_1": "peeling",
+  "choice_2": "living",
+  "choice_3": "doing",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Where did Napoleon keep his armies? Up his ____.",
   "choice_1": "sleevies",
-  "choice_2": "diagnostic",
-  "choice_3": "red",
+  "choice_2": "rear",
+  "choice_3": "melody",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Where are the Andes? At the end of your ____.",
   "choice_1": "armies",
-  "choice_2": "remained",
-  "choice_3": "essentials",
+  "choice_2": "life",
+  "choice_3": "chillies",
   "expression": "Idle",
   "level": "0"
  },
@@ -419,7 +411,7 @@
   "joke": "What do you get when you run over a bird with your lawnmower? Shredded ____.",
   "choice_1": "tweet",
   "choice_2": "warnings",
-  "choice_3": "trip",
+  "choice_3": "hazards",
   "expression": "Idle",
   "level": "0"
  },
@@ -427,7 +419,7 @@
   "joke": "What do you get if you drop a piano down a coal shaft? A flat ____.",
   "choice_1": "minor",
   "choice_2": "atlantic",
-  "choice_3": "bike",
+  "choice_3": "biker",
   "expression": "Idle",
   "level": "0"
  },
@@ -435,30 +427,30 @@
   "joke": "How does a burglar get into your house? Intruder ____.",
   "choice_1": "window",
   "choice_2": "tapes",
-  "choice_3": "dynamic",
+  "choice_3": "syndrome",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's worse than finding a worm in your apple? Finding half a ____.",
   "choice_1": "worm",
-  "choice_2": "leaves",
-  "choice_3": "armenia",
+  "choice_2": "leaf",
+  "choice_3": "teacup",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What is the richest country in the world? Ireland. Its capital is always ____.",
   "choice_1": "Dublin",
-  "choice_2": "allocation",
-  "choice_3": "knives",
+  "choice_2": "allocated",
+  "choice_3": "sharp",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What do you call a sheep with no legs? A ____.",
   "choice_1": "cloud",
-  "choice_2": "leeds",
+  "choice_2": "pipe",
   "choice_3": "hydrocodone",
   "expression": "Idle",
   "level": "0"
@@ -466,24 +458,24 @@
  {
   "joke": "What was Beethoven's fifth favorite fruit? ____.",
   "choice_1": "Ba-na-na-na",
-  "choice_2": "extension",
-  "choice_3": "marks",
+  "choice_2": "Pomegranate",
+  "choice_3": "Raven",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What did the green grape say to the purple grape? Breathe, you fool, ____.",
   "choice_1": "breathe",
-  "choice_2": "direct",
-  "choice_3": "decimal",
+  "choice_2": "be",
+  "choice_3": "say hi",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "How do you turn a duck into a soul singer? Put it in a microwave until its bill ____.",
   "choice_1": "withers",
-  "choice_2": "kw",
-  "choice_3": "thursday",
+  "choice_2": "explodes",
+  "choice_3": "thursdays",
   "expression": "Idle",
   "level": "0"
  },
@@ -499,14 +491,14 @@
   "joke": "I've deleted the phone numbers of all the Germans I know from my mobile phone. Now it's Hans ____.",
   "choice_1": "free",
   "choice_2": "aid",
-  "choice_3": "voyeurweb",
+  "choice_3": "Solo",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Why did the octopus beat the shark in a fight? Because it was well ____.",
   "choice_1": "armed",
-  "choice_2": "tones",
+  "choice_2": "toned",
   "choice_3": "deaf",
   "expression": "Idle",
   "level": "0"
@@ -514,24 +506,24 @@
  {
   "joke": "A red and a blue ship have just collided in the Caribbean. Apparently the survivors are ____.",
   "choice_1": "marooned",
-  "choice_2": "tell",
-  "choice_3": "beijing",
+  "choice_2": "telling",
+  "choice_3": "alive",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What's the advantage of living in Switzerland? Well, the flag is a big ____.",
   "choice_1": "plus",
-  "choice_2": "answers",
-  "choice_3": "defining",
+  "choice_2": "answer",
+  "choice_3": "hill",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "I am terrified of elevators. I'm going to start taking steps to avoid ____.",
-  "choice_1": "them",
-  "choice_2": "disable",
-  "choice_3": "beef",
+  "joke": "I am terrified of elevators. I'm going to start taking ____ to avoid them.",
+  "choice_1": "steps",
+  "choice_2": "directions",
+  "choice_3": "beer",
   "expression": "Idle",
   "level": "0"
  },
@@ -539,62 +531,54 @@
   "joke": "I dreamed about drowning in an ocean made out of orange soda last night. It took me a while to work out it was just a Fanta ____.",
   "choice_1": "sea",
   "choice_2": "relocation",
-  "choice_3": "rt",
+  "choice_3": "bottle",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "My cat just threw up on the carpet. I don't think it's feline ____.",
   "choice_1": "well",
-  "choice_2": "dk",
-  "choice_3": "legally",
+  "choice_2": "home",
+  "choice_3": "Donkey Kong",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "I went to the doctor today and he told me I had type A blood, but it was a type ____.",
   "choice_1": "O",
-  "choice_2": "news",
-  "choice_3": "holes",
-  "expression": "Idle",
+  "choice_2": "null",
+  "choice_3": "wow",
+  "expression": "Happy",
   "level": "0"
  },
  {
   "joke": "Today a girl said she recognized me from vegetarian club, but I'm sure I've never met ____.",
   "choice_1": "herbivore",
-  "choice_2": "browsers",
-  "choice_3": "clip",
-  "expression": "Idle",
+  "choice_2": "in person",
+  "choice_3": "today",
+  "expression": "Embarassed",
   "level": "0"
  },
  {
   "joke": "Why do crabs never give to charity? Because they're ____.",
   "choice_1": "shellfish",
-  "choice_2": "test",
-  "choice_3": "nurse",
+  "choice_2": "losers",
+  "choice_3": "away",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "People keep making apocalypse jokes like there's no ____.",
   "choice_1": "tomorrow",
-  "choice_2": "occurred",
-  "choice_3": "hidden",
-  "expression": "Idle",
-  "level": "0"
- },
- {
-  "joke": "If you're struggling to think of what to get someone for Christmas. Get them a fridge, and watch their face light up when they open ____.",
-  "choice_1": "it",
-  "choice_2": "foundation",
-  "choice_3": "pushed",
+  "choice_2": "occult",
+  "choice_3": "gems",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "I was thinking about moving to Moscow but there is no point Russian into ____.",
   "choice_1": "things",
-  "choice_2": "seminar",
+  "choice_2": "seminars",
   "choice_3": "details",
   "expression": "Idle",
   "level": "0"
@@ -603,53 +587,53 @@
   "joke": "Did you hear about the new restaurant on the moon? The food is great, but there's just no ____.",
   "choice_1": "atmosphere",
   "choice_2": "sight",
-  "choice_3": "duck",
+  "choice_3": "ducks",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "Milk is also the fastest liquid on earth. It's pasteurized before you even see ____.",
-  "choice_1": "it",
+  "joke": "Milk is also the fastest liquid on earth. It's ____ before you even see it.",
+  "choice_1": "pasteurized",
   "choice_2": "julian",
-  "choice_3": "acrobat",
+  "choice_3": "acrobatic",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Did you hear that the police have a warrant out on a midget psychic ripping people off? It reads Small medium at ____.",
-  "choice_1": "large.",
-  "choice_2": "lexmark",
-  "choice_3": "decorating",
+  "choice_1": "large",
+  "choice_2": "home",
+  "choice_3": "work",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "A steak pun is a rare medium well ____.",
   "choice_1": "done",
-  "choice_2": "faces",
-  "choice_3": "seeker",
+  "choice_2": "faced",
+  "choice_3": "smelt",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Singing in the shower is all fun and games until you get shampoo in your mouth. Then it's a soap ____.",
   "choice_1": "opera",
-  "choice_2": "logos",
-  "choice_3": "exclusively",
+  "choice_2": "surface",
+  "choice_3": "bottle",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "Why can't you hear a pterodactyl using the bathroom? Because the P is ____.",
   "choice_1": "silent",
-  "choice_2": "compatibility",
+  "choice_2": "compatible",
   "choice_3": "nutten",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "The price of bouncy castles have doubled this year. That's inflation for ____.",
-  "choice_1": "you",
+  "joke": "The price of bouncy castles have doubled this year. That's ____ for you.",
+  "choice_1": "inflation",
   "choice_2": "excel",
   "choice_3": "fatal",
   "expression": "Idle",
@@ -658,15 +642,15 @@
  {
   "joke": "Whenever I want to start eating healthy, a chocolate bar looks at me and ____.",
   "choice_1": "Snickers",
-  "choice_2": "fraction",
-  "choice_3": "tions",
+  "choice_2": "melts",
+  "choice_3": "runs",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "What do you get hanging off banana trees? Sore ____.",
   "choice_1": "arms",
-  "choice_2": "petite",
+  "choice_2": "legs",
   "choice_3": "hotels",
   "expression": "Idle",
   "level": "0"
@@ -675,23 +659,23 @@
   "joke": "I hate perforated lines, they're ____.",
   "choice_1": "tearable",
   "choice_2": "incredible",
-  "choice_3": "toyota",
+  "choice_3": "Toyotas",
   "expression": "Idle",
   "level": "0"
  },
  {
-  "joke": "What do you call a fat psychic? A four-chin ____.",
-  "choice_1": "teller",
+  "joke": "What do you call a fat psychic? A ____ teller.",
+  "choice_1": "four-chin",
   "choice_2": "metric",
-  "choice_3": "grill",
+  "choice_3": "demon",
   "expression": "Idle",
   "level": "0"
  },
  {
   "joke": "A Mexican magician says he'll disappear on the count of 3; Uno... dos... poof.... He disappeared without a ____.",
   "choice_1": "tres",
-  "choice_2": "roughly",
-  "choice_3": "ads",
+  "choice_2": "mind",
+  "choice_3": "care",
   "expression": "Idle",
   "level": "0"
  },
@@ -699,14 +683,14 @@
   "joke": "What's the difference between a hippo and a Zippo? One is heavy, and the other is a little ____.",
   "choice_1": "lighter",
   "choice_2": "mine",
-  "choice_3": "minerals",
+  "choice_3": "mineral",
   "expression": "Idle",
   "level": "0"
  },
 {
 	"joke": "I wonder why coffins are padded - is it in case they wake up? Memory foam for a death to ____",
 	"choice_1": "remember",
-	"choice_2": "spaghetti",
+	"choice_2": "spaghettify",
 	"choice_3": "astronaut",
 	"expression" : "Skull",
 	"level": 1
@@ -724,7 +708,7 @@
 	"choice_1": "18",
 	"choice_2": "42",
 	"choice_3": "69",
-	"expression" : "Idle",
+	"expression" : "Skull",
 	"level": 2
 },
 {
@@ -760,7 +744,7 @@
 	"level": 0
 },
 {
-	"joke": "I think I found my place in the universe: I’m just a ____ between my employer, and my landlord",
+	"joke": "I think I found my place in the universe: I'm just a ____ between my employer, and my landlord",
 	"choice_1": "wire",
 	"choice_2": "stupid",
 	"choice_3": "guy",
@@ -816,178 +800,106 @@
 	"level": 0
 },
 {
-  "joke": "I haven't talked to my wife in a week - I didn't want to interrupt ____.",
-  "choice_1": "her.",
-  "choice_2": "thus",
+  "joke": "I haven't talked to my wife in a week - I didn't want to ____ her.",
+  "choice_1": "interrupt",
+  "choice_2": "startle",
   "choice_3": "combat",
-  "expression": "Idle",
+  "expression": "Embarassed",
   "level": "1"
  },
  {
-  "joke": "My husband says I'm too competitive. I told him I already knew ____.",
-  "choice_1": "that.",
-  "choice_2": "gnome",
-  "choice_3": "statutes",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "The other day, my wife asked me to pass her lipstick, but I accidentally passed her a glue stick. She still isn't talking to ____.",
-  "choice_1": "me.",
-  "choice_2": "alert",
-  "choice_3": "worldsex",
+  "joke": "The other day, my wife asked me to pass her lipstick, but I accidentally passed her a glue stick. She still isn't ____ to me.",
+  "choice_1": "talking",
+  "choice_2": "alerting",
+  "choice_3": "you and",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "My husband is mad that I have no sense of direction. So I packed up my stuff and ____.",
-  "choice_1": "right.",
-  "choice_2": "pete",
-  "choice_3": "medium",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "My wife left a note on the fridge that said, This isn't working. I'm not sure what she's talking about. I opened the fridge door and it's working ____.",
-  "choice_1": "fine?",
-  "choice_2": "sleeps",
-  "choice_3": "quilt",
+  "choice_1": "right",
+  "choice_2": "yeah",
+  "choice_3": "went",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "I went to see my dentist and he warned me it was going to hurt. He ended up telling me he was having an affair with my ____.",
-  "choice_1": "wife.",
-  "choice_2": "necessary",
-  "choice_3": "childhood",
+  "choice_1": "wife",
+  "choice_2": "teeth",
+  "choice_3": "pencil",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "My girlfriend wanted a marriage just like a fairy tale. Fair enough. I gave her a loaf of bread and left her in the ____.",
-  "choice_1": "forest.",
-  "choice_2": "opinion",
-  "choice_3": "proceed",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "A man wakes from a coma. His wife changes out of her black clothes and, irritated, remarks, I really cannot depend on you in anything, can ____.",
-  "choice_1": "I!",
-  "choice_2": "exports",
-  "choice_3": "calculated",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "Wife: I'm pregnant. Husband: Hi pregnant, I'm dad. Wife: No, you're ____.",
-  "choice_1": "not.",
-  "choice_2": "math",
-  "choice_3": "cradle",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "My marriage counselor asked if it was true that I generally wake up grumpy in the morning. I said, Nah, most of the time I just let him ____.",
-  "choice_1": "sleep.",
-  "choice_2": "ought",
-  "choice_3": "spider",
+  "choice_1": "forest",
+  "choice_2": "bin",
+  "choice_3": "office",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "The most corrupt CEOs are those of the pretzel companies. They're always so ____.",
   "choice_1": "twisted.",
-  "choice_2": "moldova",
-  "choice_3": "disputes",
+  "choice_2": "moldovan",
+  "choice_3": "disputed",
   "expression": "Idle",
   "level": "1"
  },
  {
-  "joke": "As I get older, I remember all the people I lost along the way. Maybe a career as a tour guide was not the right choice. ____.",
-  "choice_1": "???",
-  "choice_2": "cabinet",
+  "joke": "As I get older, I remember all the people I lost along the way. Maybe a career as a ____ was not the right choice.",
+  "choice_1": "tour guide",
+  "choice_2": "???",
   "choice_3": "instructor",
   "expression": "Idle",
   "level": "1"
  },
  {
-  "joke": "The proper way to use a stress ball is to throw it at the last person to upset ____.",
-  "choice_1": "you.",
-  "choice_2": "illustration",
-  "choice_3": "robin",
-  "expression": "Idle",
-  "level": "1"
- },
- {
   "joke": "My parents raised me as an only child. Which really infuriated my ____.",
-  "choice_1": "sister.",
-  "choice_2": "muslims",
-  "choice_3": "populations",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "My mom died when we couldn't remember her blood type. As she died, she kept telling us to be positive, but it's hard without ____.",
-  "choice_1": "her.",
-  "choice_2": "possibly",
-  "choice_3": "sofa",
+  "choice_1": "sister",
+  "choice_2": "wounds",
+  "choice_3": "enemies",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "Today, I asked my phone Siri, why am I still single? and it activated the front ____.",
-  "choice_1": "camera.",
+  "choice_1": "camera",
   "choice_2": "agreement",
-  "choice_3": "married",
+  "choice_3": "marriage",
   "expression": "Idle",
   "level": "1"
  },
  {
-  "joke": "They say the surest way to a man's heart is through the stomach. But, I find going through the ribcage a lot ____.",
-  "choice_1": "easier.",
+  "joke": "They say the surest way to a man's heart is through the stomach. But, I find going through the ____ a lot easier.",
+  "choice_1": "ribcage",
   "choice_2": "conditioning",
-  "choice_3": "following",
+  "choice_3": "hair",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "My girlfriend's birthday is in a week and she said, Nothing would make me happier than a diamond ring! So I got her ____.",
-  "choice_1": "nothing.",
+  "choice_1": "nothing",
   "choice_2": "scratch",
-  "choice_3": "causes",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "My boyfriend said to me the other day, If anything ever happens to me, I want you to meet someone new. Apparently, getting stuck in traffic doesn't count as ____.",
-  "choice_1": "anything.",
-  "choice_2": "treasure",
-  "choice_3": "involving",
-  "expression": "Idle",
-  "level": "1"
- },
- {
-  "joke": "I have a joke about trickle down economics. But 99 percent of you will never get ____.",
-  "choice_1": "it.",
-  "choice_2": "architecture",
-  "choice_3": "tradition",
+  "choice_3": "reasons",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "I won $3 million on the lottery so I decided to donate a quarter of it to charity. Now I have ____.",
-  "choice_1": "$2,999,999.75.",
+  "choice_1": "$2,999,999.75",
   "choice_2": "skirts",
-  "choice_3": "rejected",
+  "choice_3": "nothing",
   "expression": "Idle",
   "level": "1"
  },
  {
   "joke": "Why did Mozart hate all of his chickens? When he asked them who the best composer was, they all replied, Bach, Bach, ____.",
-  "choice_1": "Bach.",
-  "choice_2": "ingredients",
-  "choice_3": "trinity",
+  "choice_1": "Bach",
+  "choice_2": "Ingredients",
+  "choice_3": "Nuggets",
   "expression": "Idle",
   "level": "1"
  }
