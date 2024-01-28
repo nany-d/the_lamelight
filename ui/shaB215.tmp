@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://1uvwagprwnjb"]
+
+[ext_resource type="Script" path="res://ui/shadow_people.gd" id="1_23ycr"]
+[ext_resource type="PackedScene" uid="uid://ckc6y76uh810i" path="res://ui/shadow.tscn" id="2_gh5a3"]
+
+[node name="ShadowPeople" type="Node2D"]
+script = ExtResource("1_23ycr")
+
+[node name="Shadow1" parent="." instance=ExtResource("2_gh5a3")]
+
+[node name="Shadow2" parent="." instance=ExtResource("2_gh5a3")]
+position = Vector2(172, -6)
+
+[node name="Shadow3" parent="." instance=ExtResource("2_gh5a3")]
+position = Vector2(330, 0)
+
+[node name="Shadow4" parent="." instance=ExtResource("2_gh5a3")]
+position = Vector2(493, 0)
+
+[node name="Shadow5" parent="." instance=ExtResource("2_gh5a3")]
+position = Vector2(653, 0)
+
+[node name="Shadow6" parent="." instance=ExtResource("2_gh5a3")]
+position = Vector2(819, 0)
