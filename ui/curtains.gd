@@ -16,11 +16,10 @@ func curtains_open():
 func curtains_close():
 	reload_scene_tree_timer.start()
 
-func reset_scene():
-	if get_tree():
-		get_tree().reload_current_scene()
 
 func _on_reload_scene_tree_timer_timeout():
 	animplayer.play("curtains_close")
 	await animplayer.animation_finished
-	reset_scene()
+	if get_tree():
+		get_tree().reload_current_scene()
+	

@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://fpmh7e5ver3l"]
+[gd_scene load_steps=14 format=3 uid="uid://dfnauvfmc2av4"]
 
 [ext_resource type="Script" path="res://ui/Comedian.gd" id="1_qhuu5"]
 [ext_resource type="Texture2D" uid="uid://d0jdwil0d06w4" path="res://art/tempui/frames_comedian/comedia_censored.png" id="2_fcb32"]
@@ -135,7 +135,7 @@ script = ExtResource("1_qhuu5")
 position = Vector2(1607, 726)
 scale = Vector2(0.46137, 0.46137)
 sprite_frames = SubResource("SpriteFrames_xvce6")
-animation = &"happy"
+animation = &"joke"
 offset = Vector2(0, -500)
 
 [node name="ComedianAnimPlayer" type="AnimationPlayer" parent="ComedianAnimatedSprite"]
@@ -143,16 +143,9 @@ libraries = {
 "": SubResource("AnimationLibrary_clx7n")
 }
 
-[node name="TestButton" type="Button" parent="."]
-offset_left = 1559.0
-offset_top = 124.0
-offset_right = 1659.0
-offset_bottom = 200.0
-text = "TestAnim"
-
 [node name="ResetTimer" type="Timer" parent="."]
+wait_time = 3.2
 one_shot = true
 
 [connection signal="change_sprite" from="." to="." method="_on_change_sprite"]
-[connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]
 [connection signal="timeout" from="ResetTimer" to="." method="_on_reset_timer_timeout"]
