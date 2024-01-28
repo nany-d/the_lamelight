@@ -52,7 +52,7 @@ func next_phrase() -> void:
 	
 	audio_manager.play_random_mumble_joke()
 	finished = false
-	
+	comedian.change_and_anim_sprite("joke", 4)
 	text.bbcode_text = dialog[joke_number]["joke"]
 	
 	text.visible_characters = 0
