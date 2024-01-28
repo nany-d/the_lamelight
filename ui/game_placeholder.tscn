@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://00jap8871a7q"]
+[gd_scene load_steps=10 format=3 uid="uid://00jap8871a7q"]
 
 [ext_resource type="Texture2D" uid="uid://j26prqmrqo5l" path="res://art/tempui/Stage/StageBackDrop.PNG" id="1_0gh33"]
 [ext_resource type="Texture2D" uid="uid://dknx2tljb0m1h" path="res://ui/placeholderimages/temp.jpg" id="1_17wk2"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://cc12ii388bxvl" path="res://art/tempui/Stage/Microphone.PNG" id="4_1gbo5"]
 [ext_resource type="Texture2D" uid="uid://nm2kgjqdcwu2" path="res://art/tempui/Stage/Chairs.PNG" id="6_fvdml"]
 [ext_resource type="Texture2D" uid="uid://d32m1wui603bv" path="res://art/tempui/Stage/StageLight.PNG" id="7_0fst0"]
+[ext_resource type="Script" path="res://ui/Light.gd" id="7_ds3ne"]
 
 [node name="GamePlaceholder" type="Control"]
 layout_mode = 3
@@ -78,6 +79,7 @@ offset_right = 2015.0
 offset_bottom = 1126.0
 texture = ExtResource("7_0fst0")
 expand_mode = 2
+script = ExtResource("7_ds3ne")
 
 [node name="ShadowPeople" parent="." instance=ExtResource("2_w8vfe")]
 position = Vector2(1057, 856)
