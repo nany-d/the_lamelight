@@ -18,7 +18,6 @@ const CensorLine = preload("res://game/censored_line.tscn")
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
-var level = GlobalSettings.level
 
 # represents whether or not the show is still running
 var show_in_progress = true
@@ -53,12 +52,12 @@ func spawn_punchlines():
 
 	#Level management
 	progress += 1
-	if progress % 15 == 0:
-		level += 1
-	if level >= 3 and randi_range(1, 5) == 3:
+	if progress % 3 == 0:
+		GlobalSettings.set_level(GlobalSettings.level + 1)
+	if GlobalSettings.level >= 3 and randi_range(1, 5) == 3:
 		spawn_censored_line()
 	print(progress)
-	print(level)
+	print(GlobalSettings.level)
 
 
 func spawn_censored_line():
@@ -113,14 +112,14 @@ func change_comedy(amount : int):
 	comedy += amount
 	if comedy < min_comedy:
 		print("You lose")
-		level = 1
+		GlobalSettings.level = 1
 		curtains.curtains_close()
 		# switch to lose screen
 	elif comedy > max_comedy:
 		comedy = max_comedy
-	if level == 3:
+	if GlobalSettings.level == 9:
 		print("You win")
-		level = 1
+		GlobalSettings.level = 1
 		curtains.curtains_close()
 
 

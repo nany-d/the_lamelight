@@ -6,9 +6,6 @@ class_name Punchline
 @onready var visible_on_screen_notifier_2d = $VisibleOnScreenNotifier2D
 
 
-# Should fall to bottom of screen
-var level = GlobalSettings.level
-
 var is_correct = false
 
 
@@ -20,7 +17,9 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta : float):
 	# Move the potential punchlines down by 10 * the difficulty
-	position += Vector2(0, 100 * delta * level)
+	position += Vector2(0, 100 * delta * GlobalSettings.level)
+	#var printer = (100 * delta * GlobalSettings.level)
+	#print(printer)
 
 func set_punchline(new_text : String):
 	punch_line_text.text = new_text

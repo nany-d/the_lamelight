@@ -3,7 +3,6 @@ extends Node2D
 @onready var censored_button = $CensoredButton
 @onready var visible_on_screen_notifier_2d = $VisibleOnScreenNotifier2D
 
-var level = GlobalSettings.level
 var has_been_clicked = false
 
 func _ready():
@@ -11,7 +10,7 @@ func _ready():
 
 func _process(delta : float):
 	# Move the potential punchlines down by 10 * the difficulty
-	position += Vector2(0, 200 * delta * level)
+	position += Vector2(0, 200 * delta * GlobalSettings.level)
 
 func press_censor():
 	has_been_clicked = true
