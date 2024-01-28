@@ -688,116 +688,116 @@
   "level": "0"
  },
 {
-    "joke": "I wonder why coffins are padded - is it in case they wake up? Memory foam for a death to ____",
-    "choice_1": "remember",
-    "choice_2": "spaghettify",
-    "choice_3": "astronaut",
-    "expression" : "Skull",
-    "level": 1
+	"joke": "I wonder why coffins are padded - is it in case they wake up? Memory foam for a death to ____",
+	"choice_1": "remember",
+	"choice_2": "spaghettify",
+	"choice_3": "astronaut",
+	"expression" : "Skull",
+	"level": 1
 },
 {
-    "joke": "Age is just a ____, that time did on my face",
-    "choice_1": "number",
-    "choice_2": "banana",
-    "choice_3": "unicorn",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "Age is just a ____, that time did on my face",
+	"choice_1": "number",
+	"choice_2": "banana",
+	"choice_3": "unicorn",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "Krillin is a good guy, before doing stuff he checked she was ____.",
-    "choice_1": "18",
-    "choice_2": "42",
-    "choice_3": "69",
-    "expression" : "Skull",
-    "level": 2
+	"joke": "Krillin is a good guy, before doing stuff he checked she was ____.",
+	"choice_1": "18",
+	"choice_2": "42",
+	"choice_3": "69",
+	"expression" : "Skull",
+	"level": 2
 },
 {
-    "joke": "Necrophiliacs are very thorough when it comes to their sex lives, they leave no ____ unturned.",
-    "choice_1": "body",
-    "choice_2": "tombstone",
-    "choice_3": "yoghurt",
-    "expression" : "Skull",
-    "level": 2
+	"joke": "Necrophiliacs are very thorough when it comes to their sex lives, they leave no ____ unturned.",
+	"choice_1": "body",
+	"choice_2": "tombstone",
+	"choice_3": "yoghurt",
+	"expression" : "Skull",
+	"level": 2
 },
 {
-    "joke": "I am a broke mathematician, I am friends with all ____ but my credit score.",
-    "choice_1": "numbers",
-    "choice_2": "equations",
-    "choice_3": "circles",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I am a broke mathematician, I am friends with all ____ but my credit score.",
+	"choice_1": "numbers",
+	"choice_2": "equations",
+	"choice_3": "circles",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "According to the bank, If my prospects were a month they would be ____.",
-    "choice_1": "debtember",
-    "choice_2": "shortuary",
-    "choice_3": "mortuary",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "According to the bank, If my prospects were a month they would be ____.",
+	"choice_1": "debtember",
+	"choice_2": "shortuary",
+	"choice_3": "mortuary",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "Breaking News - Cage fight: Musk tears Zuckerberg apart, all that's left of him is ____",
-    "choice_1": "Threads",
-    "choice_2": "Pokes",
-    "choice_3": "Likes",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "Breaking News - Cage fight: Musk tears Zuckerberg apart, all that's left of him is ____",
+	"choice_1": "Threads",
+	"choice_2": "Pokes",
+	"choice_3": "Likes",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "I think I found my place in the universe: I'm just a ____ between my employer, and my landlord",
-    "choice_1": "wire",
-    "choice_2": "stupid",
-    "choice_3": "guy",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I think I found my place in the universe: I'm just a ____ between my employer, and my landlord",
+	"choice_1": "wire",
+	"choice_2": "stupid",
+	"choice_3": "guy",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "Why don't scientists trust atoms? Because they make up ____.",
-    "choice_1": "everything",
-    "choice_2": "pancakes",
-    "choice_3": "dance moves",
-    "expression" : "Atom",
-    "level": 0
+	"joke": "Why don't scientists trust atoms? Because they make up ____.",
+	"choice_1": "everything",
+	"choice_2": "pancakes",
+	"choice_3": "dance moves",
+	"expression" : "Atom",
+	"level": 0
 },
 {
-    "joke": "I'm reading a book on anti-gravity. It's impossible to ____.",
-    "choice_1": "put down",
-    "choice_2": "fry eggs",
-    "choice_3": "ride unicorns",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I'm reading a book on anti-gravity. It's impossible to ____.",
+	"choice_1": "put down",
+	"choice_2": "fry eggs",
+	"choice_3": "ride unicorns",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "I told my suitcases there will be no vacation this year. Now I'm dealing with emotional ____.",
-    "choice_1": "baggage",
-    "choice_2": "penguins",
-    "choice_3": "lasagna",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I told my suitcases there will be no vacation this year. Now I'm dealing with emotional ____.",
+	"choice_1": "baggage",
+	"choice_2": "penguins",
+	"choice_3": "lasagna",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "I would tell you a roof joke, but it's probably over your ____.",
-    "choice_1": "head",
-    "choice_2": "banana",
-    "choice_3": "aquarium",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I would tell you a roof joke, but it's probably over your ____.",
+	"choice_1": "head",
+	"choice_2": "banana",
+	"choice_3": "aquarium",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "I broke up with my gym. We just weren't ____ out.",
-    "choice_1": "working",
-    "choice_2": "dancing",
-    "choice_3": "cooking",
-    "expression" : "Idle",
-    "level": 0
+	"joke": "I broke up with my gym. We just weren't ____ out.",
+	"choice_1": "working",
+	"choice_2": "dancing",
+	"choice_3": "cooking",
+	"expression" : "Idle",
+	"level": 0
 },
 {
-    "joke": "What did the janitor say when he jumped out of the closet? ____!",
-    "choice_1": "Supplies",
-    "choice_2": "Buckets",
-    "choice_3": "Mops away",
-    "expression" : "Embarassed",
-    "level": 0
+	"joke": "What did the janitor say when he jumped out of the closet? ____!",
+	"choice_1": "Supplies",
+	"choice_2": "Buckets",
+	"choice_3": "Mops away",
+	"expression" : "Embarassed",
+	"level": 0
 },
 {
   "joke": "I haven't talked to my wife in a week - I didn't want to ____ her.",
