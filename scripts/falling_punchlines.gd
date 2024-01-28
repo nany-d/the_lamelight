@@ -30,6 +30,8 @@ const min_comedy = 0
 
 var progress = 0
 
+var miscount = 0
+
 func spawn_punchlines():
 	var correct_punch_chosen = false
 	var false_array = [2, 3]
@@ -52,7 +54,7 @@ func spawn_punchlines():
 
 	#Level management
 	progress += 1
-	if progress % 3 == 0:
+	if progress % 7 == 0:
 		GlobalSettings.set_level(GlobalSettings.level + 1)
 	if GlobalSettings.level >= 3 and randi_range(1, 5) == 3:
 		spawn_censored_line()
@@ -75,6 +77,10 @@ func fail_to_click():
 	else:
 		audio_manager.play_random_audience_disapproval()
 	change_comedy(-1)
+	miscount += 1
+	if miscount >= 3:
+		shadow_people._hideRandomShadow()
+		miscount = 0
 	#print(comedy)
 	remove_punchlines()
 
@@ -86,8 +92,9 @@ func punch_line_check(punch_line):
 		punch_line.punch_line_text.modulate = Color(0, 1, 0)
 		audio_manager.play_random_clap_laugh()
 	else:
-		change_comedy(-punch_number)
-		shadow_people._hideRandomShadow()
+		change_comedy(-punch_number * GlobalSettings.level)
+		for number in GlobalSettings.level:
+			shadow_people._hideRandomShadow()
 		shadow_people._make_random_shadow_talk()
 		if comedy > 9 and randi_range(1,5) == 3:
 			audio_manager.play_slow_clap()
