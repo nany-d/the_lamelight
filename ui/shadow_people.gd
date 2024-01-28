@@ -19,3 +19,13 @@ func _hideRandomShadow():
 		shownArray[rnum].shadow_hide()
 		hiddenArray.append(shownArray[rnum])
 		shownArray.remove_at(rnum)
+
+func _make_random_shadow_talk():
+	if shownArray.size() > 0:
+		var rnum = randi() % shownArray.size()
+		shownArray[rnum].start_talking()
+		
+func _make_all_shadows_talk():
+	if shownArray.size() > 0:
+		for shadow in shownArray:
+			shadow.start_talking()

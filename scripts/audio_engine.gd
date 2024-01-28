@@ -52,13 +52,26 @@ func _ready():
 	slow_clap_streams.append(load("res://audio/slow_clap_01.mp3"))
 	slow_clap_streams.append(load("res://audio/slow_clap_02.mp3"))
 
+
 func play_stage_intro():
 	self.stream = load("res://audio/stage_intro.mp3")
+	play()
+	
+func play_stage_win():
+	self.stream = load("res://audio/stage_win.mp3")
+	play()
+	
+func play_stage_lose():
+	self.stream = load("res://audio/stage_lose.mp3")
 	play()
 	
 func play_crowd_chatting():
 	self.stream = load("res://audio/crowd_chatting.mp3")
 	play()
+	
+func play_beep_censor():
+	self.stream = load("res://audio/beep_censor.mp3")
+	play()	
 
 func play_random_mumble_joke():
 	self.stream = mumble_jokes_streams[randi() % mumble_jokes_streams.size()]
