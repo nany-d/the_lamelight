@@ -4,7 +4,7 @@
   "choice_1": "ash",
   "choice_2": "birch",
   "choice_3": "rendering",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -12,7 +12,7 @@
   "choice_1": "C",
   "choice_2": "B",
   "choice_3": "Z",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -20,7 +20,7 @@
   "choice_1": "'Cow'culato",
   "choice_2": "Farmulator",
   "choice_3": "Kilometer",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -28,7 +28,7 @@
   "choice_1": "right",
   "choice_2": "protein",
   "choice_3": "ASDA",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -36,7 +36,7 @@
   "choice_1": "toast",
   "choice_2": "literature",
   "choice_3": "downloading",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -44,7 +44,7 @@
   "choice_1": "salted",
   "choice_2": "pushover",
   "choice_3": "company",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -52,7 +52,7 @@
   "choice_1": "maybe",
   "choice_2": "don't",
   "choice_3": "sail",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -60,7 +60,7 @@
   "choice_1": "interest",
   "choice_2": "conferences",
   "choice_3": "advancements",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -68,7 +68,7 @@
   "choice_1": "hole-in-one",
   "choice_2": "room",
   "choice_3": "voyuer",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -76,7 +76,7 @@
   "choice_1": "run",
   "choice_2": "vbulletin",
   "choice_3": "vlookup",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -84,7 +84,7 @@
   "choice_1": "down",
   "choice_2": "up",
   "choice_3": "job",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -92,7 +92,7 @@
   "choice_1": "day",
   "choice_2": "season",
   "choice_3": "birth",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -100,7 +100,7 @@
   "choice_1": "sedans",
   "choice_2": "celebrities",
   "choice_3": "nuggets",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -108,7 +108,7 @@
   "choice_1": "prints",
   "choice_2": "slaps",
   "choice_3": "Chris Rock",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -116,7 +116,7 @@
   "choice_1": "argon",
   "choice_2": "helium",
   "choice_3": "praseodymium",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -124,7 +124,7 @@
   "choice_1": "positive",
   "choice_2": "negative",
   "choice_3": "neutural",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -132,7 +132,7 @@
   "choice_1": "food",
   "choice_2": "stories",
   "choice_3": "Jake",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -140,7 +140,7 @@
   "choice_1": "ba-na-na-na",
   "choice_2": "apple",
   "choice_3": "orange",
-  "expression": "Embarassed",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -148,7 +148,7 @@
   "choice_1": "exhausted",
   "choice_2": "coordinated",
   "choice_3": "hungover",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -156,7 +156,7 @@
   "choice_1": "ducks",
   "choice_2": "dreams",
   "choice_3": "occupies",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -164,7 +164,7 @@
   "choice_1": "hurt-y",
   "choice_2": "30",
   "choice_3": "thirty",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -172,7 +172,7 @@
   "choice_1": "purple",
   "choice_2": "rouge",
   "choice_3": "woods",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -180,7 +180,7 @@
   "choice_1": "satisfactory",
   "choice_2": "easy",
   "choice_3": "factory",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -188,7 +188,7 @@
   "choice_1": "jester",
   "choice_2": "joke",
   "choice_3": "laugh",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -196,7 +196,7 @@
   "choice_1": "ribbiting",
   "choice_2": "entertaining",
   "choice_3": "boring",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -204,7 +204,7 @@
   "choice_1": "roof",
   "choice_2": "Middle C",
   "choice_3": "brakes",
-  "expression": "Embarassed",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -212,7 +212,7 @@
   "choice_1": "day",
   "choice_2": "week",
   "choice_3": "trip",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -220,7 +220,7 @@
   "choice_1": "bananas",
   "choice_2": "condoms",
   "choice_3": "manga",
-  "expression": "Skull",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -228,7 +228,7 @@
   "choice_1": "Attire",
   "choice_2": "Yachts",
   "choice_3": "Entire",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -236,7 +236,7 @@
   "choice_1": "matey",
   "choice_2": "Clinton",
   "choice_3": "aye",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -244,7 +244,7 @@
   "choice_1": "Spaghetto",
   "choice_2": "Endz",
   "choice_3": "bits",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -252,7 +252,7 @@
   "choice_1": "something",
   "choice_2": "fire",
   "choice_3": "calpol",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -260,7 +260,7 @@
   "choice_1": "'em",
   "choice_2": "technology",
   "choice_3": "pentium",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -268,7 +268,7 @@
   "choice_1": "crazy",
   "choice_2": "pie",
   "choice_3": "ice cream",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -276,7 +276,7 @@
   "choice_1": "remarkable",
   "choice_2": "tales",
   "choice_3": "slay",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -284,7 +284,7 @@
   "choice_1": "removed",
   "choice_2": "fired",
   "choice_3": "flavored",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -292,7 +292,7 @@
   "choice_1": "horses",
   "choice_2": "pencils",
   "choice_3": "crabs",
-  "expression": "Skull",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -300,7 +300,7 @@
   "choice_1": "Fsh",
   "choice_2": "No idea",
   "choice_3": "A man",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -308,7 +308,7 @@
   "choice_1": "halfway",
   "choice_2": "interest",
   "choice_3": "orbit",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -316,7 +316,7 @@
   "choice_1": "dough",
   "choice_2": "p's",
   "choice_3": "dollar",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -324,7 +324,7 @@
   "choice_1": "Matt",
   "choice_2": "competing",
   "choice_3": "blend",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -332,7 +332,7 @@
   "choice_1": "cheetahs",
   "choice_2": "caterpillars",
   "choice_3": "gates",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -340,7 +340,7 @@
   "choice_1": "rock-eater",
   "choice_2": "killer",
   "choice_3": "baboon",
-  "expression": "Embarassed",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -348,7 +348,7 @@
   "choice_1": "g'rilla",
   "choice_2": "foreman",
   "choice_3": "rapper",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -356,7 +356,7 @@
   "choice_1": "wreck",
   "choice_2": "dam",
   "choice_3": "bird",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -364,7 +364,7 @@
   "choice_1": "Squid",
   "choice_2": "Andal",
   "choice_3": "Microwave",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -372,7 +372,7 @@
   "choice_1": "cells",
   "choice_2": "conviences",
   "choice_3": "paint dry",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -380,7 +380,7 @@
   "choice_1": "stick",
   "choice_2": "ruler",
   "choice_3": "carrot",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -388,7 +388,7 @@
   "choice_1": "peeling",
   "choice_2": "living",
   "choice_3": "doing",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -396,7 +396,7 @@
   "choice_1": "sleevies",
   "choice_2": "rear",
   "choice_3": "melody",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -404,7 +404,7 @@
   "choice_1": "armies",
   "choice_2": "life",
   "choice_3": "chillies",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -412,7 +412,7 @@
   "choice_1": "tweet",
   "choice_2": "warnings",
   "choice_3": "hazards",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -420,7 +420,7 @@
   "choice_1": "minor",
   "choice_2": "atlantic",
   "choice_3": "biker",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -428,7 +428,7 @@
   "choice_1": "window",
   "choice_2": "tapes",
   "choice_3": "syndrome",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -436,7 +436,7 @@
   "choice_1": "worm",
   "choice_2": "leaf",
   "choice_3": "teacup",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -444,7 +444,7 @@
   "choice_1": "Dublin",
   "choice_2": "allocated",
   "choice_3": "sharp",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -452,7 +452,7 @@
   "choice_1": "cloud",
   "choice_2": "pipe",
   "choice_3": "hydrocodone",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -460,7 +460,7 @@
   "choice_1": "Ba-na-na-na",
   "choice_2": "Pomegranate",
   "choice_3": "Raven",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -468,7 +468,7 @@
   "choice_1": "breathe",
   "choice_2": "be",
   "choice_3": "say hi",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -476,7 +476,7 @@
   "choice_1": "withers",
   "choice_2": "explodes",
   "choice_3": "thursdays",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -484,7 +484,7 @@
   "choice_1": "TV",
   "choice_2": "distance",
   "choice_3": "purse",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -492,7 +492,7 @@
   "choice_1": "free",
   "choice_2": "aid",
   "choice_3": "Solo",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -500,7 +500,7 @@
   "choice_1": "armed",
   "choice_2": "toned",
   "choice_3": "deaf",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -508,7 +508,7 @@
   "choice_1": "marooned",
   "choice_2": "telling",
   "choice_3": "alive",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -516,7 +516,7 @@
   "choice_1": "plus",
   "choice_2": "answer",
   "choice_3": "hill",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -524,7 +524,7 @@
   "choice_1": "steps",
   "choice_2": "directions",
   "choice_3": "beer",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -532,7 +532,7 @@
   "choice_1": "sea",
   "choice_2": "relocation",
   "choice_3": "bottle",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -540,7 +540,7 @@
   "choice_1": "well",
   "choice_2": "home",
   "choice_3": "Donkey Kong",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -548,7 +548,7 @@
   "choice_1": "O",
   "choice_2": "null",
   "choice_3": "wow",
-  "expression": "Happy",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -556,7 +556,7 @@
   "choice_1": "herbivore",
   "choice_2": "in person",
   "choice_3": "today",
-  "expression": "Embarassed",
+  "expression": "skull",
   "level": "0"
  },
  {
@@ -564,7 +564,7 @@
   "choice_1": "shellfish",
   "choice_2": "losers",
   "choice_3": "away",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -572,7 +572,7 @@
   "choice_1": "tomorrow",
   "choice_2": "occult",
   "choice_3": "gems",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -580,7 +580,7 @@
   "choice_1": "things",
   "choice_2": "seminars",
   "choice_3": "details",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -588,7 +588,7 @@
   "choice_1": "atmosphere",
   "choice_2": "sight",
   "choice_3": "ducks",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -596,7 +596,7 @@
   "choice_1": "pasteurized",
   "choice_2": "julian",
   "choice_3": "acrobatic",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -604,7 +604,7 @@
   "choice_1": "large",
   "choice_2": "home",
   "choice_3": "work",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -612,7 +612,7 @@
   "choice_1": "done",
   "choice_2": "faced",
   "choice_3": "smelt",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -620,7 +620,7 @@
   "choice_1": "opera",
   "choice_2": "surface",
   "choice_3": "bottle",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -628,7 +628,7 @@
   "choice_1": "silent",
   "choice_2": "compatible",
   "choice_3": "nutten",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -636,7 +636,7 @@
   "choice_1": "inflation",
   "choice_2": "excel",
   "choice_3": "fatal",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -644,7 +644,7 @@
   "choice_1": "Snickers",
   "choice_2": "melts",
   "choice_3": "runs",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -652,7 +652,7 @@
   "choice_1": "arms",
   "choice_2": "legs",
   "choice_3": "hotels",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -660,7 +660,7 @@
   "choice_1": "tearable",
   "choice_2": "incredible",
   "choice_3": "Toyotas",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -668,7 +668,7 @@
   "choice_1": "four-chin",
   "choice_2": "metric",
   "choice_3": "demon",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -676,7 +676,7 @@
   "choice_1": "tres",
   "choice_2": "mind",
   "choice_3": "care",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
  {
@@ -684,7 +684,7 @@
   "choice_1": "lighter",
   "choice_2": "mine",
   "choice_3": "mineral",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "0"
  },
 {
@@ -692,7 +692,7 @@
 	"choice_1": "remember",
 	"choice_2": "spaghettify",
 	"choice_3": "astronaut",
-	"expression" : "Skull",
+	"expression" : "skull",
 	"level": 1
 },
 {
@@ -700,7 +700,7 @@
 	"choice_1": "number",
 	"choice_2": "banana",
 	"choice_3": "unicorn",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -708,7 +708,7 @@
 	"choice_1": "18",
 	"choice_2": "42",
 	"choice_3": "69",
-	"expression" : "Skull",
+	"expression" : "skull",
 	"level": 2
 },
 {
@@ -716,7 +716,7 @@
 	"choice_1": "body",
 	"choice_2": "tombstone",
 	"choice_3": "yoghurt",
-	"expression" : "Skull",
+	"expression" : "skull",
 	"level": 2
 },
 {
@@ -724,7 +724,7 @@
 	"choice_1": "numbers",
 	"choice_2": "equations",
 	"choice_3": "circles",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -732,7 +732,7 @@
 	"choice_1": "debtember",
 	"choice_2": "shortuary",
 	"choice_3": "mortuary",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -740,7 +740,7 @@
 	"choice_1": "Threads",
 	"choice_2": "Pokes",
 	"choice_3": "Likes",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -748,7 +748,7 @@
 	"choice_1": "wire",
 	"choice_2": "stupid",
 	"choice_3": "guy",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -764,7 +764,7 @@
 	"choice_1": "put down",
 	"choice_2": "fry eggs",
 	"choice_3": "ride unicorns",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -772,7 +772,7 @@
 	"choice_1": "baggage",
 	"choice_2": "penguins",
 	"choice_3": "lasagna",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -780,7 +780,7 @@
 	"choice_1": "head",
 	"choice_2": "banana",
 	"choice_3": "aquarium",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -788,7 +788,7 @@
 	"choice_1": "working",
 	"choice_2": "dancing",
 	"choice_3": "cooking",
-	"expression" : "Idle",
+	"expression" : "joke",
 	"level": 0
 },
 {
@@ -796,7 +796,7 @@
 	"choice_1": "Supplies",
 	"choice_2": "Buckets",
 	"choice_3": "Mops away",
-	"expression" : "Embarassed",
+	"expression" : "skull",
 	"level": 0
 },
 {
@@ -804,7 +804,7 @@
   "choice_1": "interrupt",
   "choice_2": "startle",
   "choice_3": "combat",
-  "expression": "Embarassed",
+  "expression": "skull",
   "level": "1"
  },
  {
@@ -812,7 +812,7 @@
   "choice_1": "talking",
   "choice_2": "alerting",
   "choice_3": "you and",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -820,7 +820,7 @@
   "choice_1": "right",
   "choice_2": "yeah",
   "choice_3": "went",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -828,7 +828,7 @@
   "choice_1": "wife",
   "choice_2": "teeth",
   "choice_3": "pencil",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -836,7 +836,7 @@
   "choice_1": "forest",
   "choice_2": "bin",
   "choice_3": "office",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -844,7 +844,7 @@
   "choice_1": "twisted.",
   "choice_2": "moldovan",
   "choice_3": "disputed",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -852,7 +852,7 @@
   "choice_1": "tour guide",
   "choice_2": "???",
   "choice_3": "instructor",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -860,7 +860,7 @@
   "choice_1": "sister",
   "choice_2": "wounds",
   "choice_3": "enemies",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -868,7 +868,7 @@
   "choice_1": "camera",
   "choice_2": "agreement",
   "choice_3": "marriage",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -876,7 +876,7 @@
   "choice_1": "ribcage",
   "choice_2": "conditioning",
   "choice_3": "hair",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -884,7 +884,7 @@
   "choice_1": "nothing",
   "choice_2": "scratch",
   "choice_3": "reasons",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -892,7 +892,7 @@
   "choice_1": "$2,999,999.75",
   "choice_2": "skirts",
   "choice_3": "nothing",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  },
  {
@@ -900,7 +900,7 @@
   "choice_1": "Bach",
   "choice_2": "Ingredients",
   "choice_3": "Nuggets",
-  "expression": "Idle",
+  "expression": "joke",
   "level": "1"
  }
 ]

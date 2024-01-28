@@ -11,6 +11,7 @@ extends Control
 @onready var load_delay = $LoadTimer
 @onready var falling_punchlines = $"../FallingPunchlines"
 @onready var audio_manager = $"/root/AudioEngine"
+@onready var comedian = $"../../GamePlaceholder/Comedian"
 
 var dialog
 
@@ -46,6 +47,7 @@ func shuffle_joke_array():
 
 
 func next_phrase() -> void:
+	comedian.change_and_anim_sprite(dialog[joke_number]["expression"], 55)
 	audio.playing = true
 	
 	audio_manager.play_random_mumble_joke()
