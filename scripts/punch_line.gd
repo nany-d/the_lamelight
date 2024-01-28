@@ -17,7 +17,7 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta : float):
 	# Move the potential punchlines down by 10 * the difficulty
-	position += Vector2(0, 100 * delta * GlobalSettings.level)
+	position += Vector2(0, 80 * delta * (1 + (GlobalSettings.level * 0.5)))
 	#var printer = (100 * delta * GlobalSettings.level)
 	#print(printer)
 
