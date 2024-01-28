@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://fpmh7e5ver3l"]
+[gd_scene load_steps=14 format=3 uid="uid://cyw603nfoud1m"]
 
 [ext_resource type="Script" path="res://ui/Comedian.gd" id="1_qhuu5"]
 [ext_resource type="Texture2D" uid="uid://d0jdwil0d06w4" path="res://art/tempui/frames_comedian/comedia_censored.png" id="2_fcb32"]
@@ -144,6 +144,7 @@ libraries = {
 }
 
 [node name="TestButton" type="Button" parent="."]
+visible = false
 offset_left = 1559.0
 offset_top = 124.0
 offset_right = 1659.0

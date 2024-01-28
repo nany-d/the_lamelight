@@ -14,6 +14,9 @@ const CensorLine = preload("res://game/censored_line.tscn")
 @onready var curtains = $"../../Curtains"
 @onready var result_line = $"../ResultLine"
 @onready var not_jakes_joke_delay = $"../NotJakesJokeDelay"
+@onready var comedian = $"../../GamePlaceholder/Comedian"
+
+
 
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
@@ -33,6 +36,7 @@ var miscount = 0
 
 func _ready():
 	GlobalSettings.set_show_in_progress(true)
+	#print(comedian.animSprite.animation_finished)
 	
 func spawn_punchlines():
 	var correct_punch_chosen = false
@@ -73,10 +77,12 @@ func spawn_censored_line():
 	
 
 func fail_to_click():
-	if comedy > 0:
+	if comedy > 9:
 		audio_manager.play_random_audience_cough()
 	else:
 		audio_manager.play_random_audience_disapproval()
+	comedian.change_and_anim_sprite("embarrassed", 3)
+	#await comedian.animSprite.animation_finished
 	change_comedy(-1)
 	miscount += 1
 	if miscount >= 3:
@@ -91,6 +97,7 @@ func punch_line_check(punch_line):
 		shadow_people._make_all_shadows_talk()
 		punch_line.punch_line_text.modulate = Color(0, 1, 0)
 		audio_manager.play_random_clap_laugh()
+		comedian.change_and_anim_sprite("happy", 3)
 	else:
 		change_comedy(-punch_number * GlobalSettings.level)
 		for number in GlobalSettings.level:
@@ -99,8 +106,10 @@ func punch_line_check(punch_line):
 		if comedy > 9 and randi_range(1,5) == 3:
 			audio_manager.play_slow_clap()
 			joke_delay.wait_time = 5
+			comedian.change_and_anim_sprite("embarassed", 5)
 		else:
 			audio_manager.play_random_audience_disapproval()
+			comedian.change_and_anim_sprite("embarassed", 3)
 	set_result_line(punch_line)
 	remove_punchlines()
 
@@ -112,10 +121,12 @@ func remove_punchlines():
 
 func choose_censor():
 	audio_manager.play_beep_censor()
+	comedian.change_and_anim_sprite("censored", 5)
 	remove_punchlines()
 	for i in range(6):
 		shadow_people._hideRandomShadow()
 	change_comedy(-19)
+	await comedian.animSprite.animation_finished
 
 func change_comedy(amount : int):
 	comedy += amount
@@ -150,6 +161,7 @@ func success():
 	await audio_manager.finished
 	print("win sound")
 	audio_manager.play_stage_win()
+	comedian.change_and_anim_sprite("happy_success", 15)
 	await audio_manager.finished
 	curtains.curtains_close()
 	
@@ -158,6 +170,7 @@ func failure():
 	await audio_manager.finished
 	print("lose sound")
 	audio_manager.play_stage_lose()
+	comedian.change_and_anim_sprite("gameover", 15)
 	await audio_manager.finished
 	curtains.curtains_close()
 
