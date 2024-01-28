@@ -40,14 +40,14 @@ func spawn_punchlines():
 	for i in range(punch_number):
 		var p = PunchLine.instantiate()
 		add_child(p)
-		p.position += Vector2((i + 1) * 350, 0)
+		p.position += Vector2(((i + 1) * 400) - 250, 0)
 		if randi_range(i+1, punch_number) == punch_number and not correct_punch_chosen:
-			p.set_punchline(joke.dialog[joke.joke_number - 1]["choice_1"])
+			p.set_punchline("[center]"+joke.dialog[joke.joke_number - 1]["choice_1"]+"[/center]")
 			p.set_correct(true)
 			correct_punch_chosen = true
 			p.punch_line_button.connect("pressed", punch_line_check.bind(p))
 		else:
-			p.set_punchline(joke.dialog[joke.joke_number - 1]["choice_" + str(false_array.pop_at(randi_range(0, (false_array.size() - 1))))])
+			p.set_punchline("[center]"+joke.dialog[joke.joke_number - 1]["choice_" + str(false_array.pop_at(randi_range(0, (false_array.size() - 1))))]+"[/center]")
 			p.set_correct(false)
 			p.punch_line_button.connect("pressed", punch_line_check.bind(p))
 		p.visible_on_screen_notifier_2d.connect("screen_exited", fail_to_click)
@@ -137,7 +137,7 @@ func _on_joke_delay_timeout():
 
 
 func set_result_line(punch_line):
-	result_line.add_text(punch_line.punch_line_text.text)
+	result_line.text = punch_line.punch_line_text.text
 	if punch_line.is_correct:
 		result_line.modulate = Color(0, 1, 0)
 	else:
