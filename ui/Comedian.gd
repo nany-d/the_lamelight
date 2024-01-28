@@ -11,6 +11,7 @@ func _on_change_sprite():
 	pass # Replace with function body.
 
 func change_and_anim_sprite(_animname, _waitforreset):
+	resetTimer.stop()
 	animname = _animname
 	animPlayer.play("bounce")
 	resetTimer.wait_time = _waitforreset
