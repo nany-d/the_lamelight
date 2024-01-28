@@ -60,9 +60,9 @@ func spawn_punchlines():
 
 	# Level management
 	progress += 1
-	if progress % 2 == 0: # change back to 7
+	if progress % 4 == 0:
 		GlobalSettings.set_level(GlobalSettings.level + 1)
-	if GlobalSettings.level >= 0 and randi_range(1, 3) == 3: # change back to 3, 5
+	if GlobalSettings.level >= 3 and randi_range(1, 4) == 3:
 		spawn_censored_line()
 	print(progress)
 	print(GlobalSettings.level)
