@@ -151,6 +151,7 @@ offset_bottom = 200.0
 text = "TestAnim"
 
 [node name="ResetTimer" type="Timer" parent="."]
+one_shot = true
 
 [connection signal="change_sprite" from="." to="." method="_on_change_sprite"]
 [connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]
