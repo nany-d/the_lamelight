@@ -1,0 +1,148 @@
+[gd_scene load_steps=14 format=3 uid="uid://fpmh7e5ver3l"]
+
+[ext_resource type="Script" path="res://ui/Comedian.gd" id="1_qhuu5"]
+[ext_resource type="Texture2D" uid="uid://d0jdwil0d06w4" path="res://art/tempui/frames_comedian/comedia_censored.png" id="2_fcb32"]
+[ext_resource type="Texture2D" uid="uid://ch6fripyhe8jv" path="res://art/tempui/frames_comedian/comedian_embarassed.png" id="3_6o1cr"]
+[ext_resource type="Texture2D" uid="uid://ro2tuaee25at" path="res://art/tempui/frames_comedian/comedian_gameoversad.png" id="4_ybgdu"]
+[ext_resource type="Texture2D" uid="uid://d2sr5wsuhqlag" path="res://art/tempui/frames_comedian/comedian_happy.png" id="5_jjuf2"]
+[ext_resource type="Texture2D" uid="uid://chtacqaea35uo" path="res://art/tempui/frames_comedian/comedian_happysuccess.png" id="6_fkx1y"]
+[ext_resource type="Texture2D" uid="uid://b7hftb4omcn2b" path="res://art/tempui/frames_comedian/comedia_idle.png" id="7_u1b78"]
+[ext_resource type="Texture2D" uid="uid://g88tffxpmlc8" path="res://art/tempui/frames_comedian/comedian_joke.png" id="8_uff7s"]
+[ext_resource type="Texture2D" uid="uid://cihm0i3ij4elf" path="res://art/tempui/frames_comedian/comedia_skull.png" id="9_pi5hi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xvce6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_fcb32")
+}],
+"loop": true,
+"name": &"censored",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_6o1cr")
+}],
+"loop": true,
+"name": &"embarassed",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ybgdu")
+}],
+"loop": true,
+"name": &"gameover",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_jjuf2")
+}],
+"loop": true,
+"name": &"happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_fkx1y")
+}],
+"loop": true,
+"name": &"happy_success",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("7_u1b78")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_uff7s")
+}],
+"loop": true,
+"name": &"joke",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_pi5hi")
+}],
+"loop": true,
+"name": &"skull",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_wqk6h"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0.46137, 0.46137)]
+}
+
+[sub_resource type="Animation" id="Animation_plhpu"]
+resource_name = "bounce"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:scale")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0796098, 0.11786, 0.194147, 0.275809),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0.461, 0.461), Vector2(0.476, 0.331), Vector2(0.636, 0.496), Vector2(0.426, 0.479), Vector2(0.461, 0.461)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_clx7n"]
+_data = {
+"RESET": SubResource("Animation_wqk6h"),
+"bounce": SubResource("Animation_plhpu")
+}
+
+[node name="Comedian" type="Node2D"]
+script = ExtResource("1_qhuu5")
+
+[node name="ComedianAnimatedSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(1607, 726)
+scale = Vector2(0.46137, 0.46137)
+sprite_frames = SubResource("SpriteFrames_xvce6")
+animation = &"idle"
+offset = Vector2(0, -500)
+
+[node name="ComedianAnimPlayer" type="AnimationPlayer" parent="ComedianAnimatedSprite"]
+libraries = {
+"": SubResource("AnimationLibrary_clx7n")
+}
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
