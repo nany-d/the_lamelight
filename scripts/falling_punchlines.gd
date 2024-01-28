@@ -15,7 +15,6 @@ const CensorLine = preload("res://game/censored_line.tscn")
 @onready var result_line = $"../ResultLine"
 @onready var not_jakes_joke_delay = $"../NotJakesJokeDelay"
 
-
 var comedy = GlobalSettings.comedy
 var punch_number = GlobalSettings.punch_number
 
@@ -24,7 +23,7 @@ var show_in_progress = true
 
 signal next_joke
 
-# If comedy is more than max_comedy 3 times you win, if comedy is less than min_comedy 3 times you lose
+# Comedy should be between max and min
 const max_comedy = 18
 const min_comedy = 0
 
@@ -32,10 +31,12 @@ var progress = 0
 
 var miscount = 0
 
+func _ready():
+	GlobalSettings.set_show_in_progress(true)
+	
 func spawn_punchlines():
 	var correct_punch_chosen = false
-	var false_array = [2, 3]
-	
+	var false_array = [2, 3]	
 	
 	for i in range(punch_number):
 		var p = PunchLine.instantiate()
@@ -52,7 +53,7 @@ func spawn_punchlines():
 			p.punch_line_button.connect("pressed", punch_line_check.bind(p))
 		p.visible_on_screen_notifier_2d.connect("screen_exited", fail_to_click)
 
-	#Level management
+	# Level management
 	progress += 1
 	if progress % 7 == 0:
 		GlobalSettings.set_level(GlobalSettings.level + 1)
@@ -81,7 +82,6 @@ func fail_to_click():
 	if miscount >= 3:
 		shadow_people._hideRandomShadow()
 		miscount = 0
-	#print(comedy)
 	remove_punchlines()
 
 func punch_line_check(punch_line):
@@ -111,6 +111,7 @@ func remove_punchlines():
 	joke_delay.start()
 
 func choose_censor():
+	audio_manager.play_beep_censor()
 	remove_punchlines()
 	for i in range(6):
 		shadow_people._hideRandomShadow()
@@ -120,20 +121,20 @@ func change_comedy(amount : int):
 	comedy += amount
 	if comedy < min_comedy:
 		print("You lose")
+		failure()
 		GlobalSettings.level = 1
-		curtains.curtains_close()
-		# switch to lose screen
 	elif comedy > max_comedy:
 		comedy = max_comedy
 	if GlobalSettings.level == 9:
 		print("You win")
+		success()
 		GlobalSettings.level = 1
-		curtains.curtains_close()
 
 
 func _on_joke_delay_timeout():
-	emit_signal("next_joke")
-	joke_delay.wait_time = 3.2
+	if GlobalSettings.get_show_in_progress():
+		emit_signal("next_joke")
+		joke_delay.wait_time = 3.2
 
 
 func set_result_line(punch_line):
@@ -144,6 +145,21 @@ func set_result_line(punch_line):
 		result_line.modulate = Color(1, 0, 0)
 	not_jakes_joke_delay.start()
 
+func success():
+	GlobalSettings.set_show_in_progress(false)
+	await audio_manager.finished
+	print("win sound")
+	audio_manager.play_stage_win()
+	await audio_manager.finished
+	curtains.curtains_close()
+	
+func failure():
+	GlobalSettings.set_show_in_progress(false)
+	await audio_manager.finished
+	print("lose sound")
+	audio_manager.play_stage_lose()
+	await audio_manager.finished
+	curtains.curtains_close()
 
 func _on_not_jakes_joke_delay_timeout():
 	result_line.clear()
