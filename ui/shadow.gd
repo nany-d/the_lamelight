@@ -33,7 +33,6 @@ func shadow_show():
 	animplayer.play("shadow_show")
 
 func shadow_hide():
-	is_leaving = true
 	animplayer.play("shadow_hide")
 
 
