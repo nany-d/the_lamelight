@@ -1,0 +1,123 @@
+[gd_scene load_steps=18 format=3 uid="uid://n5eldln4nljp"]
+
+[ext_resource type="Texture2D" uid="uid://d0jdwil0d06w4" path="res://art/tempui/frames_comedian/comedia_censored.png" id="1_2ytp5"]
+[ext_resource type="Texture2D" uid="uid://b7hftb4omcn2b" path="res://art/tempui/frames_comedian/comedia_idle.png" id="1_qqnpj"]
+[ext_resource type="Texture2D" uid="uid://d2sr5wsuhqlag" path="res://art/tempui/frames_comedian/comedian_happy.png" id="2_eqpd0"]
+[ext_resource type="Texture2D" uid="uid://chtacqaea35uo" path="res://art/tempui/frames_comedian/comedian_happysuccess.png" id="3_m754r"]
+[ext_resource type="Texture2D" uid="uid://ro2tuaee25at" path="res://art/tempui/frames_comedian/comedian_gameoversad.png" id="5_nbea5"]
+[ext_resource type="Texture2D" uid="uid://cihm0i3ij4elf" path="res://art/tempui/frames_comedian/comedia_skull.png" id="6_uxi00"]
+[ext_resource type="Texture2D" uid="uid://g88tffxpmlc8" path="res://art/tempui/frames_comedian/comedian_joke.png" id="7_b6k1c"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqw1e"]
+atlas = ExtResource("1_2ytp5")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1klm5"]
+atlas = ExtResource("1_qqnpj")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0tc56"]
+atlas = ExtResource("2_eqpd0")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_frf4m"]
+atlas = ExtResource("3_m754r")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33sm5"]
+atlas = ExtResource("1_qqnpj")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bpt8a"]
+atlas = ExtResource("5_nbea5")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_llc08"]
+atlas = ExtResource("6_uxi00")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0alrx"]
+atlas = ExtResource("1_qqnpj")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m0bi"]
+atlas = ExtResource("7_b6k1c")
+region = Rect2(0, 0, 2024, 2024)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_05p0m"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqw1e")
+}],
+"loop": true,
+"name": &"Censored",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1klm5")
+}],
+"loop": true,
+"name": &"Enter Stage Left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0tc56")
+}],
+"loop": true,
+"name": &"Happy",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_frf4m")
+}],
+"loop": true,
+"name": &"Happy Success",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33sm5")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bpt8a")
+}],
+"loop": true,
+"name": &"Sad",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_llc08")
+}],
+"loop": true,
+"name": &"Skull",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0alrx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m0bi")
+}],
+"loop": true,
+"name": &"Talk",
+"speed": 8.0
+}]
+
+[node name="Comedian" type="Node2D"]
+
+[node name="ComedianAnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(8.00002, -7.62939e-06)
+scale = Vector2(0.4, 0.4)
+sprite_frames = SubResource("SpriteFrames_05p0m")
+animation = &"Enter Stage Left"
