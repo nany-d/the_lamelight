@@ -54,16 +54,17 @@ texture = ExtResource("2_acc20")
 expand_mode = 2
 
 [node name="Comedian" parent="." instance=ExtResource("2_kwval")]
+position = Vector2(-3, -53)
 
 [node name="Microphone" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -300.0
-offset_top = -80.0
-offset_right = 68.0
-offset_bottom = 69.0
+offset_left = -251.0
+offset_top = -75.0
+offset_right = 117.0
+offset_bottom = 74.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_1gbo5")
@@ -72,7 +73,8 @@ expand_mode = 2
 [node name="Light" type="TextureRect" parent="."]
 modulate = Color(1, 1, 0.819608, 0.176471)
 layout_mode = 0
-offset_right = 1995.0
+offset_left = 20.0
+offset_right = 2015.0
 offset_bottom = 1126.0
 texture = ExtResource("7_0fst0")
 expand_mode = 2
