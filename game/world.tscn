@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://c1n0l5bjxykk6"]
+[gd_scene load_steps=7 format=3 uid="uid://c1n0l5bjxykk6"]
 
 [ext_resource type="PackedScene" uid="uid://00jap8871a7q" path="res://ui/game_placeholder.tscn" id="1_ehtji"]
 [ext_resource type="PackedScene" uid="uid://b1gsy3w58nksa" path="res://ui/ui.tscn" id="1_jrgk0"]
 [ext_resource type="PackedScene" uid="uid://dy6tg6m2pnwmf" path="res://ui/curtains.tscn" id="3_15lye"]
 [ext_resource type="Script" path="res://scripts/audio_engine.gd" id="4_v4old"]
+[ext_resource type="Texture2D" uid="uid://bd2wa283x21gd" path="res://art/title.png" id="5_smude"]
 
 [sub_resource type="AudioStreamMP3" id="AudioStreamMP3_83xjk"]
 
@@ -18,3 +19,14 @@
 [node name="AudioEngine" type="AudioStreamPlayer" parent="."]
 stream = SubResource("AudioStreamMP3_83xjk")
 script = ExtResource("4_v4old")
+
+[node name="Button" type="TextureButton" parent="."]
+modulate = Color(1, 1, 0, 1)
+offset_left = 528.0
+offset_top = 288.0
+offset_right = 1845.0
+offset_bottom = 936.0
+scale = Vector2(0.75, 0.75)
+texture_normal = ExtResource("5_smude")
+
+[connection signal="pressed" from="Button" to="UI" method="_on_button_pressed"]

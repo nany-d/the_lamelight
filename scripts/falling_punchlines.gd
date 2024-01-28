@@ -39,7 +39,7 @@ func _ready():
 	#print(comedian.animSprite.animation_finished)
 	
 func spawn_punchlines():
-	level_header.text = "Act: " + str(GlobalSettings.level)
+	level_header.text = "Act: " + str(GlobalSettings.level) + "/8"
 	var correct_punch_chosen = false
 	var false_array = [2, 3]	
 	
@@ -110,10 +110,8 @@ func punch_line_check(punch_line):
 		if comedy > 9 and randi_range(1,5) == 3:
 			audio_manager.play_slow_clap()
 			joke_delay.wait_time = 5
-			comedian.change_and_anim_sprite("embarassed", 5)
 		else:
 			audio_manager.play_random_audience_disapproval()
-			comedian.change_and_anim_sprite("embarassed", 3)
 	set_result_line(punch_line)
 	remove_punchlines()
 

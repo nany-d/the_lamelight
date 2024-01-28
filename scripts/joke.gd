@@ -3,7 +3,7 @@ extends Control
 
 
 @export var dialog_path = ""
-@export var text_speed: float = 0.005
+@export var text_speed: float = 0.01
 
 @onready var timer = $CharDelay
 @onready var text = $JokeText
@@ -52,7 +52,6 @@ func next_phrase() -> void:
 	
 	audio_manager.play_random_mumble_joke()
 	finished = false
-	comedian.change_and_anim_sprite("joke", 4)
 	text.bbcode_text = dialog[joke_number]["joke"]
 	
 	text.visible_characters = 0
